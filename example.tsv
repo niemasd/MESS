@@ -1,0 +1,3723 @@
+ID	P1Q1	P1Q2	P1Q3	P1Q4	P1Q5	P1Q6	P1Q7	P1Q8	P1Q9	P2Q1	P2Q2	P2Q3	P2Q4	P2Q5	P2Q6	P2Q7	P2Q8	P2Q9	P2Q10	P3Q1	P3Q2	P3Q3	P3Q4	P3Q5	P3Q6	P3Q7	P3Q8	P3Q9	P3Q10	P4Q1	P4Q2	P4Q3	P4Q4	P4Q5	P4Q6	P4Q7	P4Q8	P4Q9	P4Q10
+0	"5
+3"	D	"A, B, C"	b 56	hl!	B	D	"B, D"	"A, C, E"	45	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"34, 21, 24, 26, 28, 54"	"34, 26, 54, 21, 28, 30"	"A, D"		"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4						
+1	"5
+3"	"D, E"	"A, B, C"	break myprogram:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, D, F"	44	99	2	"A, C, D"	B	"E, C, G, B, F, L, A"	C	A	1	"B, C, D"	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	2	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, E"	9	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	9	3	3	C	A	"B, C"
+2	"5
+3"	"A, D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, D"	4	4	9	4	6	B	C	"C, E"
+3	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"A, B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	10	4	4	B	C	"A, B, C, E"
+4	"5
+3
+"	"D, E"	"A, B, C"	break myprogram.cpp 56	"h
+l
+o
+"	E	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, C, D"	"E, C, L, B, F, A, G"	C	A	3	B	"A, C, D"	2	"13, 12, 15, 5, 18, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, E"
+5	"5
+3"		"A, B, C"			"B, C, D"	D	"B, D"	"B, D, E, F"	44	40	2	"A, B, C, D"	"B, D"	"E, C, F, B, G, L, A"	C	B	2	"A, B, C"	"A, D"	1	"13, 12, 18, 5, 15, 26"	2	1	"A, C"			"B, C, D, E"	7		"B, D"	5	4	24	24			B	"A, B, D"
+6	"5
+3"	E	"A, C"	b 56	"h
+l
+o"	"B, D"	D	E	G		50	2	"A, B, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	D	"A, C, D"	4	"13, 12, 18, 5, 15, 26"	2	1						"MAD
+MID
+MIDTERM
+MIND
+MINT
+
+"	"B, D"	4	4	10	4	4	B	C	
+7	"5
+3"	D	"B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	54	50	2	"A, C, D"	D	"E, C, G, B, F, L, A"	C				"A, C, D"	3	"13, 12, 18, 5, 15, 26"	3	3	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	A	4	"MAD
+MID
+MIDTERM
+MINT
+MIND
+"	"B, D"	4	4	9	3	3	B	C	"A, B, E"
+8	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"A, B, D"	E	"A, B, C, D"	"B, C, D, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"			F	7	"AD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	25	4	8	B	C	
+9	"5
+3"	C	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	0	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	0	"A, B"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM"	"A, B, C, D"	4	4	9	3	4	C	E	"A, B, C, D, E"
+10	"5
+3"	E	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, B, F, L, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"26, 28, 34, 21, 30, 54"	F	7	"mad
+mid
+midterm
+mind
+mint"	B	4	4	10	4	3	B	C	"C, E"
+11	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	"B, C"	D	"C, D"	"A, B, C, E, F"	160	50	2	"A, C, D"	D	"E, C, F, B, G, L, A"	C	A	2	B	"A, C, D"	2	"13, 12, 15, 5, 18, 26"	2	1	"A, C"	"26, 21, 24, 28, 34, 54"	"26, 21, 34, 28, 30, 54"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	25	4	9	C	G	"A, C, E"
+12	"x = 5
+y = 3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	1	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"30, 26, 34, 21, 28, 54"	A	9	"mad
+mid
+midterm
+mint
+mind"	"B, D"	4	4	8	4	3	B	C	"C, E"
+13	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o
+"	B	D	"A, B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	B	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"28, 26, 34, 21, 24, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	25	4	5	B	C	"A, B, C, E"
+14	"5
+5"	E	"A, B, C"	break 56	hlo	"B, C"	E	"B, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	1	2	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D"	5	"mad
+mid
+midterm
+mind
+mint"	B	4	4	10	5	4	B	C	"A, D, E"
+15	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	hlo	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, C, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C"	3	"13, 12, 18, 5, 15, 26"	2	1	"B, C, D"	"34, 21, 54, 24, 26, 28"		"A, B, C, D, E"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	6	4	3	B	C	"A, C, E"
+16	"5
+3"	"D, E"	"A, B, C"	break 56	hlo	"A, B, D"	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2		2	0	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"mad
+mid
+midterm
+mind
+mintd"	B	4	4	9	9	8	B	B	"B, C"
+17	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	"A, B, C"	E	"B, C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	E	"A, C, D"	2	"13, 12, 26, 5, 18, 15"	2	1	A	"34, 26, 21, 24, 28, 54"		"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, E"
+18	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	E	E	B	G	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3		B	C	E
+19	"5
+3
+"	"D, E"	"A, B, C"	break 56	"h
+l
+o
+"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+20	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	1	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	3	B	C	"C, D, E"
+21		D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"A, B, C, D"	"A, B, F"	44	50	0	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"			B			F	4	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	24	4	4	B	B	"C, E"
+22	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"A, B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	5	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"28, 26, 34, 21, 24, 54"	"28, 26, 30, 21, 34, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	5	4	5	B	C	"C, E"
+23	"5
+3"	D	"A, C"	b  56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	D	"E, C, L, B, F, A, G"	C	A	2	B	"A, C"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	3	B	C	C
+24	"5
+3"	E	"A, B, C"	break 56	"h
+l
+o"	B	E	D	"A, D, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, G, A"	C	A	2	"A, D"	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D"	7	"mad
+mid
+midterm
+mind
+mint"		4	4	8	4				
+25	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2		"B, D"	"A, B, C, E, L, F, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C					"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4						"C, E"
+26	"5
+3"	E	"A, B, C"	b 56	hlo	B	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 15, 5, 18, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	8	4	4	B	C	"C, E"
+27	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	9	4	5	B	G	"C, D, E"
+28	"5
+3"	"D, E"	"A, B, C"	b 56	hlo	B	E	"B, C"	"A, B, C, E, F"	213	49	2	"A, C, D"	B	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 15, 5, 18, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	9	3	6	B	C	"C, E"
+29	"5
+3
+"	D	"A, B, C"	b myprogram.cpp:56	hl!	C	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	4	B	C	"A, B, C, E"
+30	"5
+3"	E	"A, C"	break 56	"h
+l
+!"	B	E	"B, D"	"D, E"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	13	4	5	B	C	"C, E"
+31	"2
+5"	D	"A, B, C"	break 56	hlo	"A, B"	D	"B, C, D"	G	44	6	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"A, B, C, D, E"
+32	"5
+3"	D	"A, B, C"	break 56	hlo	"B, C"	E			44	49	1	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	3	B	C	"C, D"
+33	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, D"	"A, B, C, F"	44	50	2	"A, C, D"	B	"E, C, L, B, F, A, G"	B	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	5	"MAD
+MID
+MIDTERM
+MIND
+MINT"	C	5	4	9	6	9	B	B	E
+34	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, F"	44	50	2	"A, B, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	4	5	B	C	"C, E"
+35	"5
+3"	"D, E"	"A, B, C"	b 56	hlo	B	E	"B, C, D"	"A, B, C, E, F"	45	48	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	9	B	E	"C, E"
+36	"5
+5"	D	"A, B, C"	br myprogram.cpp:56	hlo	"B, C, D"	D	"C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	8	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	9	B	C	"C, E"
+37	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	C	"C, E"
+38	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"A, B"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 26, 5, 15, 18"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+39	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	D	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, B, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	C	"A, C, D"	1	"13, 12, 26, 5, 18, 15"	2	1	"A, B, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	12	4	4	E	C	"C, D, E"
+40	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"B, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	B	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	3	B	C	"C, E"
+41	"5
+3"	"D, E"	"A, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	0	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	3	1	"A, B"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D, E"	7	"Mad
+Mid
+Midterm
+Mind
+Mint"	B	4	4	10	4	5	B	C	"C, E"
+42	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	"A, B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	8	4	6	B	C	"C, E"
+43	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	9	4	9	B	E	C
+44	"5
+3"	"D, E"	D	break myprogram.cpp: 56	"h
+l
+o"	C	E	"B, C, D"	"A, C, E"		50	2	"A, C, D"	B	"E, C, L, B, F, A, G"	C	B	1	B	"C, D"	2	"13, 12, 26, 18, 5, 15"	2	1	E		"34, 26, 54, 21, 28, 30"	A	9	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	E	"A, C, E"
+45	"5
+5"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, F"	43	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	5	B	C	"C, E"
+46	"5
+3"	E	"A, B, C"	break 56	"h
+l
+o"	C	E	"A, D"	"A, B, C, F"	44	99	2	"A, C, D"	D	"E, C, G, B, F, L, A"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D, E"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	5	5	B	C	"A, C"
+47	"2
+3"	E	"A, B, C"	break 56	"h
+l
+o"	B	E	"A, B, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C"	4	"13, 12, 26, 5, 15, 18"	2	2	"A, C"	"34, 24, 54, 26, 21, 28"	"34, 26, 54, 21, 28, 30"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	3	B	C	"C, E"
+48	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"A, C, D"	"A, B, C, E, F"	17	7	2	"A, C, D"	"B, D, E"	"E, C, F, B, G, L, A"	B	A	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+
+
+"	"B, D"	4	4	7	5	4	B	C	"C, D"
+49	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, D"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+50	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"A, B, D"	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	9	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	3	7			
+51	"5
+3"	D	"A, B, C"	break myprogram.cpp 56	"h
+l
+o"	C	C	"A, B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 21, 34, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND
+"	"B, D"	4	4	24	4	4	B	C	"B, C, E"
+52			"A, B, C"	break myprogram.cpp:56	"h
+l
+o"					44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A					"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	10	4	8	B	C	"C, E"
+53	"5
+3"	D	A	b 56	"h
+l
+o"	D	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	10	4	8	B	C	"A, C, E"
+54	"5
+3"	"D, E"	"B, C"	break 56	"h
+l
+o"	"B, D"	E	"C, D"	"A, B, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	3	3	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+
+"	"B, D"	4	4	10	4	4	B	C	"A, C, D, E"
+55	"5
+3"	"A, B, C, D"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	8	4	4			
+56	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, D, E, F"	44	50	2	"A, C, D"	"B, C, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	1	2	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	6	"MAD
+MID
+MIDTERM
+MINT
+MIND"	D	4	4	19	4	4	B	C	"C, D, E"
+57	"5
+3"	E	"A, B, C"	break 56	"h
+l
+o"	"A, B"	D	"B, C, D"	"A, B, C, E, F"	0	51	0	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	4	"mad
+mid
+midterm
+mind
+mint
+"	"B, D"	4	4	24	4	5	B	D	"C, D, E"
+58	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	E	E	"B, C, D"	"A, B, C, E, F"	43	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	C	4	4	10	4	5	A	C	"C, E"
+59	"5
+3"	"D, E"	D	b 56	"h 
+l
+o"	"B, C"	E	"A, D"	"A, B, C, E, F"	44	41	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"30, 26, 34, 21, 28, 54"	"A, B, C, D, E"	9	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B"	5	4	10	4	9	B	C	"C, E"
+60	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"B, D, E"	42	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	C	3	"13, 12, 18, 5, 15, 26"	1	0	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	4	4	4	B	B	"C, D, E"
+61	"5 
+3"	E	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	A	E	"B, C, D"	"A, B, D, F"	44	51	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	24	4	4	B	E	"C, E"
+62	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp: 56	"h
+l
+o"	B	D	"B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	8	4	6	B	C	"C, E"
+63	"5
+3
+"	D	"A, B"	break myprogram.cpp:56	"h
+l
+o
+"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	1	99	2	"A, C, D"	B	"E, C, F, B, G, A, L"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	3	24	4	4	B	C	"C, D"
+64	"5
+3"	E	"A, B, C"	break myprogram.cpp:56	hlo	"B, C"	E	"B, C, D"	"A, B, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 26, 15"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	E	"C, E"
+65	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp 56	"h
+l
+o"	E	E	"B, C, D"	"A, B, C, E, F"	43	50	2	"A, C, D"	"B, D"	"E, C, F, B, G, A, L"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 30, 21, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	9	B	G	"C, E"
+66	"5
+3"	E	"A, B, C"	b 56 myprogram.cpp	"h
+l
+o"		E	B	"B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	1	"13, 12, 18, 5, 15, 26"	2	1		"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	5	B	C	"C, E"
+67	"5
+3"	E	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"A, B"	E	"A, B"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 15, 5, 18, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"A, C, E"
+68	"5
+3"	"D, E"	"A, B, C"	break main.cpp:56	"h
+l
+o"	D	E	"B, C, D"	"B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	4	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	G	"C, E"
+69	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	3	"A, C, D"	D	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	B	5	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	25	4	5	B	C	"C, E"
+70	"5
+3"	E	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	3	4	10	4		A	B	"C, E"
+71	"5
+3
+"	D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o
+"	"B, D"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3		2	1	"A, D"	"26, 21, 34, 24, 28, 54"		"A, B, C, D"	8		"B, D"	4	4	4	3		B	G	A
+72	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, D, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	"A, D"	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"		4	8	4		B	B	"C, E"
+73	"5
+5
+"	"D, E"	"A, B, C"	break main.cpp:56	"h
+l
+o"	"B, C, D"	D	"B, C, D"	"B, D, E"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	A			"A, B, C, D, E"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	6	B	C	"C, E"
+74	"5
+3"	"D, E"	"A, B, C"	break mypogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	1	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	4	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	8	B	C	"C, E"
+75	"5
+3"	E	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"		50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1		"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	1	B	C	"C, D, E"
+76	"5
+3"	E		b myprogram.cpp:56	"h
+l
+o"	"A, C"	E	"B, C, D"	"A, B, C, F"	44	6	2	"A, C, D"	D	"E, C, L, B, F, A, G"	C	A	2	A	"A, C, D"	1	"13, 12, 26, 5, 15, 18"	2	0	D	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	B	4	4	9	3	24	B	C	"A, E"
+77	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"C, D"	"A, B, C, F"		50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"		"A, B, C, D, E"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4		B	C	"C, E"
+78	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"B, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	1	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"B, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	5	4	9	4	4	B	B	"C, D, E"
+79	"5
+3
+"	"D, E"	"A, B, C"	b 56	"h
+l
+o
+"	B	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	E	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	24	4	5	C	C	"C, E"
+80	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, B, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	B	4	4	10	4	5	B	C	"C, E"
+81	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, D"	D	"B, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	6	B	C	"C, E"
+82	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	hlo	B	E	"A, B, C"	"A, B, C, E, F"	44	49	2	"A, C, D"	B	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	4	B	C	"A, B, C, E"
+83	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	12	4	4	B	E	"C, E"
+84	"5
+5"	D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"C, D"	D	"C, D"	"A, B, C, F"	44	50	2	"A, C, D"	B	"E, C, L, B, F, A, G"	C	A	2	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, E"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	E	"C, E"
+85	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"34, 26, 54, 21, 28, 30"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	C	"C, E"
+86	"5
+5"	E	"A, B, C"	break 56	"h
+l
+o"	C	E	"A, D"	"A, B, C, F"	44	99	2	"A, C, D"	D	"E, C, L, B, F, A, G"	C	A	3	B	"A, C, D"	3	"13, 12, 26, 5, 15, 18"	2	1	"C, D"	"26, 24, 34, 21, 28, 54"	"26, 21, 34, 28, 30, 54"	"C, D, E"	9	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	4	4	4	B	B	"A, E"
+87	"5
+3
+"	D	"A, B, C"	break 56	"h
+l
+o
+"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	3	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+88	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, D"	E	"A, B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"34, 24, 54, 21, 26, 28"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	11	4	13	B	C	"A, C, E"
+89	"5
+3"	D	"A, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, F"	44	99	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A		B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	1	0	"A, B, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	8	"Mad
+Mid
+Midterm
+Mind
+Mint"	"B, D"	4	4	17	4	5	B	C	"A, C, D, E"
+90	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, C, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	4	B	C	"C, E"
+91	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o
+"	E	E	"A, B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"26, 28, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	13	4	5	B	B	"C, D, E"
+92	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	"A, B"	E	"B, C, D"	"A, B, C, F"	44	99	0	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, C"	4	4	10	4	4	B	E	"C, E"
+93	"5
+5"	D	"A, B, C"	b 56 	"h
+l
+o"	B	E	"A, B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	24	4	8	B	C	"A, B, C, E"
+94	"5
+3
+"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"A, B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, D, E"
+95	"5
+3"	A	"A, B, C"	b myprogram.cpp 56	"h
+l
+o"	B	E	"B, C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, B, F, L, A, G"	A	A	2	B	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"		"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	5	4	10	4	4	B	C	"C, E"
+96	"5
+3"	"D, E"	"A, B, C"	b myprogam.cpp: 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, D"	"B, C, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	0	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	10	4	4	B	C	"C, E"
+97	"5
+3"	D	"A, C"	break 56	"h
+l
+o"	E	E	"A, B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"34, 28, 54, 26, 21, 30"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, E"
+98	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	42	49	2	"A, D"	"B, D"	"E, C, L, B, F, A, G"	C	D	2	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	2	E	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	6	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	8	4	6	B	C	"C, D, E"
+99	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, F, B, G, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"21, 24, 26, 28, 34, 54"	"21, 30, 26, 28, 34, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	9	4	8	B	C	"A, C, E"
+100	"5
+3"	"B, E"	"A, C"	break myprogram.cpp:56	hlo	"A, B, C"	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	B	"E, C, L, B, F, A, G"	C	A	2	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"28, 24, 34, 21, 26, 54"	"28, 26, 34, 21, 30, 54"	"A, C"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+
+"	B	4	4	9	8	8	B	F	"C, E"
+101	"5
+5"	"D, E"	"A, B, C"	break myprogram.cpp:14	"h
+l
+o"	B	D	"A, B, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	C	3	"13, 12, 18, 5, 15, 26"	1	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	3	C	C	
+102	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	10	4	4	B	C	"C, E"
+103	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	C	"C, E"
+104	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+0"	"B, C"	E	"A, B, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"34, 24, 54, 21, 26, 28"	"34, 26, 54, 21, 30, 28"	"A, B, C, D, E"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	9	4	5	B	C	"A, C, E"
+105	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp: 56	"h
+l
+o
+"	"B, C"	E	"B, C, D"	"B, C, F"	44	50	2	"A, C, D"	A	"A, B, C, G, F, L, E"	C	C	2	"B, C, D"	"A, C"	3	"13, 12, 18, 5, 15, 26"	1	2	"A, B"	"34, 26, 54, 24, 28, 21"	"34, 30, 54, 26, 28, 21"	"A, C, D"	7		"B, C, D"	4	3	24	24	24	B	E	"A, D"
+106	"5
+3"	B	"A, B, C"	break 56		"B, C"	D	A	"D, E"	44	51	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	1	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	E	"34, 26, 54, 21, 28, 24"	"34, 26, 54, 21, 28, 30"	"C, E"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	C	4	4	24	4	5	C	C	"C, E"
+107	"5
+5"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	D	C	"B, C, D, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint
+"	B	4	4	9	4	3	B	C	"C, D, E"
+108	"2
+5
+"	D	"A, B, C"	break 56	"h
+l
+o
+"	E	E	"B, D"	"A, B, C, E, F"	44	48	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"34, 26, 54, 24, 28, 21"	"34, 30, 54, 26, 28, 21"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	25			B	E	"A, B"
+109	"5
+3
+"	E	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"A, B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"34, 26, 54, 21, 28, 30"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	3	B	C	"C, E"
+110	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o
+S E G M E N T A T I O N F A U L T (CORE DUMPED) ?"	"B, C"	E	"B, C, D"	"B, C, D, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	3	B	C	"C, E"
+111	"5
+3
+"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o
+"	"A, B"	E	"B, C, D"		44		2	"A, C, D"	"B, D"	"E, C, F, B, G, A, L"	C	A	2	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	E	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	10	4	5	B	B	"A, C, E"
+112	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56 	hlo	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	9			B	E	"C, E"
+113	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	4	B	C	"C, E"
+114	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	B	E	"A, B, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	3	B	C	"C, E"
+115	"5
+3"	E	"A, B, C"	b 56	hlo	C	D	"A, D"	"B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	2	"C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D, E"	7	"mad
+mid
+midterm
+mind
+mint
+"	"B, C"	4	1	6	3	4	B	G	"A, E"
+116	"5
+3"	"A, B, D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	3	4	10	4	4	B	G	"C, E"
+117	"5
+3"	D	A	b 56	"h
+l
+o"	"B, C"	E	"A, B, D"	"A, B, C, E, F"	1	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"34, 24, 54, 21, 26, 28"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4		25	4	6	A	B	"C, E"
+118	"5
+3
+"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o
+"	B	E	"B, C, D"	"A, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, F, B, G, A, L"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	G	"C, E"
+119	"5
+3"	E	"A, B, C"	b myprogram.cpp:56	hlo	B	E	"B, D"	"A, B, C, F"	42	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	10	4	5	B	C	"A, B, C, E"
+120	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:57	"h
+l 
+o"	"A, B"	E	"B, C, D"	"A, B, C, E, F"	43	50	2	"A, C, D"	"B, D, E"	"E, C, G, B, F, L, A"	C	A	2	B	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D"	4	"mad
+mid
+midterm 
+mind 
+mint"	"B, D"	4	4	10	4		B	G	"D, E"
+121	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, E"
+122	"5
+3"	D	"A, B, C"	break myprogram.cpp:57	"h
+l
+o"	"B, C"	E		"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	"A, D"	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	4	4	B	E	"A, C, E"
+123	"5
+3
+"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o
+"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+124		E	"A, B, C"	break 56	hlo		E	"C, D"	"B, E, F"		50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C"			"A, B, C, D"	5	"MAD
+MID
+MIDTERM
+MIND
+MINT"	E	4	4	9	4	4	B	B	"C, E"
+125	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	3	B	"A, C"	4	"13, 12, 18, 5, 15, 26"	2	4	A	"34, 24, 54, 21, 28, 26"	"28, 26, 34, 21, 30, 54"	"B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, D"	4	4	9	5	5	B	C	F
+126	"5
+3
+"	E	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C"	3	"13, 12, 15, 5, 26, 18"	2	1	"A, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	4	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	9	4	9	B	C	"B, C"
+127	"5
+3"	D	"A, B, C"	(gdb) break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"B, D, E"	43	8	2	"B, C, D"	"A, C"	"E, C, F, B, G, A, L"	C	B	5	D	E	2	"13, 12, 18, 5, 26, 15"	0	2	"B, D"	"34, 26, 54, 24, 28, 21"	"34, 21, 26, 54, 28, 30"	"A, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	0	3	2	5	3	B	B	"A, C, D"
+128	"5
+3"	"D, E"	"A, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	D	"E, C, L, B, F, A, G"	C	B	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C"	"26, 21, 34, 24, 28, 54"		"A, B, C, D, E"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, D"	4	4	4	5	4	G	C	
+129	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, C, F"	45	99	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	5	10	4	5	B	C	"A, C, E"
+130	"5
+3"	D	"A, B, C"	break myprogram:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	43	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	E	4	4	8	4	4	B	C	"C, E"
+131	"5
+3"	"D, E"	"A, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	43	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	0	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"34, 28, 54, 26, 21, 30"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	9	D	C	"C, E"
+132	"5
+3"	C	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	0	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	3	3				"A, C, E"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	5	B	B	"C, E"
+133			"A, B, C"		hello!	"B, D"	D	B	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	E	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	B	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	6	"mad
+mid
+midterm
+mind
+mint"	B	4	4						
+134	"5
+5"	D	A	break myprogram.cpp:56	"h
+l
+o"	D	D	"B, C, D"	"A, B, D, F"	44	50	2	"A, B, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1						"MAD 
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	9	4	5	B	E	C
+135	"5 
+5"	C	"A, B, C"	break 56	"h 
+l
+o"	"B, C"	E	"A, B, D"	"A, B, C, F"	44	7	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	B	4	4	8	4	3	B	C	C
+136	"5, 3 (assuming that namespace was declared as standard and iostream was included further up in the file)"	D	"A, B, C"	break myprogram.cpp:56	hlo (assuming that vector was included and namespace was declared as standard further up in the file)	"A, B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	6	B	C	"A, C"
+137	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"B, D"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	C	"C, E"
+138	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"		"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	8	B	C	"A, C, E"
+139	"2
+5"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"B, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, B, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"M
+Ma
+Mi
+Min
+Mit
+Mite
+Miter
+"	"B, D"	3	3	9	9	9	C	C	"A, C"
+140	"5
+3"	D	"A, C"	b 56	hlo	D	E	"B, D"	"A, D"	44	51	2	"A, B, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	3	3	"A, C"	"26, 54, 21, 34, 24, 28"	"21, 26, 30, 28, 34, 54"	"A, C"	8	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	5	10	4	4	B	E	"C, E"
+141	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	D	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"21, 24, 26, 28, 34, 54"				"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	E	"C, E"
+142	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	"C, D"	E	"B, C, D"	"A, B"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 24, 34, 21, 28, 54"	"30, 28, 34, 21, 26, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	5	5	10	4	8	B	C	"A, B, C, E"
+143	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"A, B, C"	E	"A, B, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	E								
+144	"5
+3"	D	"A, B, C"	b myprogram.cpp: 57	"h
+l
+o"	"B, C"	E	"A, C, D"	"A, B, C, E, F"	44	6	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"34, 26, 54, 21, 28, 24"	"28, 26, 34, 21, 30, 54"	A	5	"mad
+mid
+midterm
+mind
+mint"	"B, D"					4			"A, B, C"
+145	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	E	E	"B, C, D"	"B, C, E, F"			2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"30, 26, 34, 21, 28, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	9	5	6	B	G	C
+146	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"AD
+MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	12	4	4			
+147	"5
+3"	E	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	E	E	"A, D"	"A, B, C, F"	1	50	2	"A, C, D"	D	"E, C, F, B, L, A, G"	C	A	2	B	"A, C, D"	4	"13, 12, 18, 5, 15, 26"	2	1	"A, B"				7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	10	4	4	B	C	"C, E"
+148	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	8	4	8	B	C	"C, E"
+149	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"B, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	B	"A, C, D"	4	"13, 12, 26, 5, 15, 18"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	9	4	7	A	C	C
+150	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"A, B, D"	"A, B, C, E, F"	3	7	2		"B, C, D"	"E, C, G, B, F, L, A"		A	3	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	9	3	4	B	C	"C, E"
+151	"5
+3
+
+
+"	"D, E"	"A, B, C"	break 56	"h
+l
+o
+
+"	B	E	"B, C, D"	"A, B, C, D, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	4	B	G	"C, E"
+152	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	6	B	C	"A, B, C"
+153	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"A, B, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	25	4	5	B	C	C
+154	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l 
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	3	"A, C, D"	D	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	B	5	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+155	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp 56	"h
+l
+o
+"	"B, C"	E	"A, B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"A, B, E"
+156	"5
+3
+"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o
+"	"B, C"	E	"B, C, D"	"A, B, C"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	B	4	4	9	4	24	B	B	"C, D, E"
+157	"5
+3"	"A, C, D, E"	"A, B, C"	break 56	"h
+l
+!"	E	E	"A, B, D"	"A, B, C, F"	44	6	2	"A, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, D"	4	4	10	4	5	B	C	"A, B, C, E"
+158	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	"A, B, D"	E			44		2		D	"E, C, G, B, F, L, A"		C	2	B	"A, C"	3	"12, 5, 15, 13, 26, 18"	3						6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+159	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"C, D"	"A, B, C, F"	44	50	2	"A, C, D"	D	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	3	12	4	3	C	C	"B, C, E"
+160	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint
+"	"A, B, D"	8	4	24	4	8	B	C	"A, C, D, E"
+161	"2
+5"	"D, E"	A	b 56 myprogram.cpp	"h
+l
+o"	"B, C"	D	"A, B, D"	"A, B, D, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"			"mad
+mid
+midterm
+mind
+mint"	B	4	4	10	4	9	B	C	"C, E"
+162	"5
+5"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+e
+o"	"B, C"	D	D	"A, B, C, E, F"	43	99	2	"A, C, D"	"D, E"	"E, C, G, B, F, L, A"	C	A	3	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	3	2	A	"34, 26, 54, 21, 28, 24"	"34, 30, 54, 26, 21, 28"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	25	4	5	B	E	"A, B, C, E"
+163	"5
+3"	E	"A, B, C"	b 57	"h
+l
+o"	B	E	"B, C, D"	"B, C, F"	44	50	2	"A, B, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, B, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	20	4	3	B	C	"C, D, E"
+164	"5
+3"	"B, D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	93	49	2	"A, C, D"		"E, C, G, B, F, L, A"	C	A	0	B	"A, C, D"	3	"13, 12, 15, 5, 18, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"34, 26, 54, 21, 28, 30"	F	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	E	4	4	24	4	8	B	C	"C, E"
+165	"5
+3"	"A, D"	"A, B, C"	b 56	"h
+l
+o"	"A, C"	E	"C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, B"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 30, 21, 54"	"A, B, C, D"	4	"Mad
+Mid
+Midterm
+Mind
+Mint
+
+"	"B, D"	6	5	30	4	4	B	C	"A, C, D, E"
+166	"5
+3"	"D, E"	C	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"		"21, 26, 28, 30, 34, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	C	"C, E"
+167	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	"A, B"	E	"B, C, D"	"A, B, C, F"	44	51	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	D	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	9	3		C	B	
+168	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"A, B, C, D"	"A, B, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	3	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	8	"mad
+mid
+midterm
+mind
+mint"	B	4	4	9	3	5	B	F	C
+169	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	4	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	5	5	5	4	3			
+170	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:57	hlo	"B, C"	E	"C, D"	"A, C, F"	44	49	2	"A, C, D"	B	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	7	8	8	B	B	"C, E"
+171	"5
+3
+"	"D, E"	"A, B, C"	b 56	"h
+l
+o
+"	B	E	"A, B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+172	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"A, B, C, D"	E	"A, B, C, D"	"A, B, C, D, F"	44	50	2	"A, B, C, D"	"B, C, D, E"	"E, C, L, B, F, A, G"	B	A	2	A	"A, C, D"	1	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C"	"21, 24, 26, 28, 34, 54"	"21, 26, 28, 30, 34, 54"	"C, D"	9	"mad
+mid
+midterm
+mind
+mint
+"	B	4	4	9	4	5	B	B	E
+173	"4
+3"	"D, E"	A	b myprogram.cpp:56	"h
+l
+o"	D	E	"B, C, D"	"A, B, C, E, F"	1	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	D	"C, D"	3	"13, 12, 18, 5, 15, 26"	3	1	"A, C"	"26, 21, 34, 24, 28, 54"	"30, 26, 34, 21, 28, 54"	F	4	"mad
+mid
+midterm
+mind
+mint"	B	4	4	5	4	2	B	C	"C, E"
+174	"5
+3"	"D, E"	"A, B, C"	b 56	hlo	E	E	A	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	10	4	6	B	C	"C, D, E"
+175	"5
+3
+"	E	"A, B, C"	b 56	"h
+l
+o
+"	"B, C"	E	"B, C, D"	"B, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 26, 5, 15, 18"	2	1	"C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	D	"C, E"
+176	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+"	B	D	"B, C, D"	"A, B, C, E, F"	0		2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	2	"MAD
+MID
+MIDTERM
+MIND
+MINT"	E	4	4	9	4	4	B	B	"C, D, E"
+177	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o
+"	B	E	D	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	E	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, E"
+178	"2
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"B, C, D, E, F"	540	98	2	"A, C, D"	"B, D"	"A, B, C, E, F, G, L"	B	A	2	A	"A, C, D"	0	"15, 18, 5, 12, 26, 13"	2	1	E	"28, 21, 26, 24, 54, 34"	"21, 30, 54, 26, 34, 28"	"A, B, C, D"	4		"C, D"	5	4	4	4	4	B	B	
+179	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o
+"	B	E	"B, C, D"	"B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	3	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	9	4	5	B	C	"A, D"
+180	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o
+"	"B, C"	E	"B, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4		4	24			
+181	"5
+3
+"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"B, D, F"	44	6	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	4	"A, B, C, D"	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"34, 26, 54, 24, 28, 21"	"34, 30, 54, 26, 21, 28"	"A, B, C, D, E"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"A, C, E"
+182	"5
+3"	E	"A, C"	b myprogram.cpp:56	"h
+l
+o"	"B, D"	E	"B, C, D"	"A, B, F"	44	51	2	"A, C, D"	C	"E, C, G, B, F, L, A"	C	B	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	5	B	C	"A, B, C"
+183	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	E	E	"B, C, D"		44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	3	A	"A, C, D"	3	"13, 12, 15, 5, 26, 18"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"			1	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	9	6	6	B	C	"C, E"
+184	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	C	E	"A, B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"30, 26, 34, 21, 28, 54"	"A, B, C, D"	9	"mad
+mid
+midterm
+mind
+mint"	B	4	4	10	4	5	B	C	"C, E"
+185	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	22	3	4	B	B	"C, E"
+186	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o
+"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	24	4	2	B	C	"C, E"
+187	"5
+3"	D	"A, B, C"	b 56	hlo	B	D	"A, C, D"	"A, B, C, F"	1	97	3	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	D	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"		4	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	12	4	24	B	C	"C, D, E"
+188	"5
+3"	D	A	b 56	"h
+l
+o"	"B, C"	E	"A, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, F, B, G, A, L"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	3	B	C	"C, E"
+189	"5
+3"	"A, B, D, E"	A	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, F"	44	50	2	"C, D"	B	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"26, 21, 34, 28, 54, 30"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	6	B	C	"A, B, C, E"
+190	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	hlo	"B, C"	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	2	"12, 5, 13, 15, 18, 26"	2	1	"A, C"	"24, 21, 34, 26, 54, 28"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	5	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	9	3	8	B	E	"A, C, E"
+191	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	3	B	C	"C, E"
+192	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	5	5	B	C	E
+193	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, D"	E	"A, B, D"		44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+194	"5
+3"	"B, D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	D	"C, D, E, F"	44	50	2	"A, C, D"	"B, C, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 28, 34, 21, 24, 54"	"26, 28, 34, 21, 30, 54"	F	7	"Mad
+Mid
+Midterm
+Mind
+Mint"	B	3	4	9	4		B	C	"C, E"
+195	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"B, C, D, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	B	"C, E"
+196	"5
+5"	E	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	7	3	4	B	C	
+197	"5
+3
+"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o
+"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	10	3	4	B	C	"C, E"
+198	"5
+3"	"D, E"	A	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, A, B, C, F, G, L"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MID
+MIDTERM
+MIND
+MINT"	"B, C, D"	3	4	5	4	3	B	C	"C, E"
+199	"5
+3"	E	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"A, B, C, D"	"A, B, C, E, F"	44	48	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 15, 5, 18, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	E	"C, E"
+200	"5
+3
+"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	E	E	"B, C, D"	"B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"30, 26, 34, 21, 28, 54"	"A, B, C, D"	8	"mad
+mid
+midterm
+mind
+mint
+"	B	4	4	9	4	4	B	C	"A, D"
+201	"5
+3"	"D, E"	"A, B, C"	break 56	hlo	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"A, B, L, F, C, G, E"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"24, 28, 54, 21, 34, 26"	"21, 30, 54, 26, 34, 28"	"A, B, C, D"	7		"B, D"	5	4				F	D	
+202	"5
+3"	D	D	break 56;	hlo	B	D	"B, C, D"	"A, B, C, E, F"	44	50	2	"C, D"	"B, D"	"E, C, G, B, F, L, A"	C	C	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, E"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND
+"	B	4	4	10	4	4	B	B	"C, E"
+203	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o
+"	E	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, E"
+204	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	1	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	25	4	4	B	G	"C, E"
+205	"5
+3
+"	D	"A, B, C"	b 56	"h
+l
+o
+"	"A, B"	E	"B, C, D"	"A, B, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	B	3	C	"B, C, D"	2		1	2	"A, D"	"34, 26, 28, 54, 21, 24"		"D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+206	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, D"	E	"A, B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	15	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	9	4	4			
+207	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	"C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, C, D"	4	5	4	6	8	C	C	F
+208	"8
+3"	"D, E"	"A, B"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	D	"A, C, E"
+209	"5
+3
+"	"D, E"	"A, B, C"	break 56	"h
+l
+o
+"	"B, D"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	15	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	8	4	3	B	C	"C, E"
+210	"5
+3
+"	"D, E"	"A, B, C"	break 56	"h
+l
+o
+"	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"		"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	C	"A, C, E"
+211	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, B, C, D"	D	"E, C, L, B, F, A, G"	C	A	2	"A, B, C, D"	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"B, C, D"	5	"Mad
+Mid
+Midterm
+Mind
+Mint
+"	"A, B"	4	4	6	8	8			
+212	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	"A, B, C"	E	"B, C"	"B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	0	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	11	3	3	C	C	"C, E"
+213	"5
+3"	D		break myprogram.cpp:56	"h
+l
+o"		E	"A, D"	"A, B, C, E, F"		50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	6	B	C	C
+214	"5
+3"	E	"A, B, C"	b 56	hlo	"A, B"	E	"A, B"	"A, B, C, F"	44	99	2	"C, D"	"B, D, E"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7		B	4	4	9	4	4	C	A	"A, C, D"
+215	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o
+"		E	"B, C, D"	"D, E"	44	197	2	"A, C, D"	"D, E"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C"	"26, 21, 34, 24, 28, 54"	"26, 21, 34, 28, 54, 30"	"A, C, D, E"	4	"mad
+mid
+midterm
+mint
+mind"	B	4	4	24	4	6	B	C	"C, E"
+216	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	"A, C"	E	C	"A, B, C, F"	44	49	2	"A, C, D"	"B, D, E"	"E, C, G, B, F, L, A"	C	A	3	A	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	2	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	6	"mad
+mid
+midterm
+mind
+mint"	"A, B, D"	4	4	9	5	5	B	C	"B, C, E"
+217	"5
+5"				hlo	E		"B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	B	2	B	"A, C, D"	3	"13, 12, 15, 5, 18, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	4	B	C	"C, E"
+218	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, C, D"	4	4	10	5	4	B	C	"A, C, E"
+219	"5
+5"	D	"A, B, C"	gdb break 56	"h 
+l
+o"	"B, C"	D	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	3	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"24, 26, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	3	B	C	"C, D, E"
+220	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	B	"A, C"	3	"13, 12, 18, 5, 15, 26"	1	2	A	"34, 24, 54, 21, 28, 26"	"28, 26, 34, 21, 30, 54"	"C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	24	4	4	C	G	"C, D, E"
+221	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"A, B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	4	4	4	B	C	"B, C, E"
+222	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	4	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 24, 34, 21, 28, 54"	"34, 28, 54, 26, 30, 21"	"A, C, D"	4	"MAD 
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, E"
+223	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	"B, C, D"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"A, B, D"	4	3				B	C	
+224	"5
+3"	"A, B"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	4	B	"A, C, D"	3	"13, 12, 15, 5, 18, 26"	2	1	"A, C"	"34, 26, 54, 24, 28, 21"	"34, 26, 54, 21, 28, 30"	"B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	3				F	E	"B, C, D, E"
+225	"5
+3"	"D, E"		break myprogram.cpp:56	"h
+l
+o"	"A, D"	E	"B, C"	"A, E"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C, D"	"54, 21, 24, 26, 28, 34"	"21, 34, 26, 28, 30, 54"	B	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+226	"5
+3"	C	"A, C"	break 56	"h
+l
+o"	"B, D"	E	"B, C, D"	"A, B, E, F"	44	44	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, G, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	E	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	9	3	3		B	"C, D, E"
+227	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, D"	E	"B, C, D"	"B, C, D, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C"	2	"13, 12, 18, 5, 15, 26"	2	2	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"		"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, C, D"	4	4	6	5	5			
+228	"5
+5"	E	"A, B, C"	b 56	"h
+l
+o"	B	D	"A, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	3	"A, B"	"A, C"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"AD
+MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, D"	4	4	9	9	7	B	C	"C, E"
+229	"5
+3"	"A, C, D"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"A, D"	"A, B, C, F"			2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	4	"A, D"			"C, D, E"	11	"MAD
+MID
+MIDTERM
+MIND
+MINT
+
+"	B	4	3	5	4	3	B	C	"C, E"
+230	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	5	B	C	"C, E"
+231	"5
+3"	D	"A, C"	b 56	"h
+l
+o
+"	"B, C"	E	D	"A, B, C, E, F"		50	2	"A, C, D"	"B, E"	"A, B, C, E, F, G, L"	C	C	2	B	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"B, D"	"26, 21, 34, 24, 28, 54"	"34, 26, 54, 21, 28, 30"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	8	4	7	B	C	"A, C, E"
+232	"5
+3"	"A, B, C, D"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C, D"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	9	4	3	B	C	"C, E"
+233	"2
+5"	E	"A, B, C"	b 56	"h
+l
+o"	"B, C"	D	"B, D"	"A, B, D, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"		"A, B, C"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	25	4	6	B	C	"C, E"
+234	"5
+3"	E	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, D, F"	44	99	2	"A, B, C, D"	"B, D"	"E, C, F, B, L, A, G"	C	A	2	B	"A, C"	3	"13, 12, 18, 5, 15, 26"	3	1	"A, D"	"34, 26, 54, 21, 28, 24"	"34, 26, 54, 21, 28, 30"	F	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	1	2	24	6	9	F	F	"B, D, E"
+235	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"A, B, C, D"	"A, B, C, F"	44	51	2	"A, C, D"	"B, C, D"		C	A	2	B	"A, C"	2		2	2				"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	10	4	5	B	C	"C, E"
+236	"5
+3"	"A, D, E"	"A, B, C"	b 56	hlo	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"34, 24, 54, 21, 26, 28"	"26, 21, 28, 34, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIND
+MINT
+MIDTERM"	B	4	4	9	4	4	G	C	"C, E"
+237	"5
+3
+"	D	"A, B, C"	break 56	"h
+l
+o
+"	B	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	5	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	5	10	4	4	B	C	"C, E"
+238	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"A, B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	0	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	6	B	C	"A, B, C, E"
+239	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	E	E	"A, D"	"B, C, E, F"	44	50	1	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	C	3	B	"C, D"	1	"13, 12, 15, 5, 18, 26"	2	1	"A, C, D"	"34, 26, 54, 21, 28, 24"	"34, 30, 54, 26, 28, 21"	"A, C, D"	8	"mad
+mid
+midterm
+mint
+mind
+"	E	12							
+240	"5
+3"	E	"A, B, C"	break 56	"h
+l
+o"	C	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"A, B, C, F, L, G, E"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	2	"A, C"	"28, 24, 34, 21, 26, 54"	"30, 28, 34, 21, 26, 54"	"A, E"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	13	3	4	B	C	E
+241	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"A, B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	A	6	"AD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	3	4	6	4	4	B	C	"A, B, C, E"
+242	"5
+3"	D		break 57		B	E		"B, C, F"	42	49		"A, C, D"							"A, C"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	4	B	C	"C, E"
+243	"5
+3"	D	"A, B, C"	b myprogram.cpp : 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	99	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	"A, D"	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"26, 21, 34, 54, 28, 30"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"C, D"	4	4	12	4	4	B	C	"C, E"
+244	"8
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	2	"A, C"	"34, 26, 54, 21, 28, 24"	"34, 26, 54, 21, 28, 30"	"A, C, D"	7	"mad
+mid
+midterm
+mint
+mind"	B	4	4	10	4	4	B	C	"C, E"
+245	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	4	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	A	8	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	4	B	C	"B, D"
+246	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	hlo	"B, D"	C	"A, D"	"A, B, C, F"	44	7	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	"A, D"	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	4	B	B	E
+247	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"A, B, C"	E	"A, B, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 24, 34, 21, 28, 54"	"26, 21, 34, 28, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	5	4	6	6	B	C	"A, C, E"
+248	"5 
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	hlo	"B, C"	E	"C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	3	B	C	"C, E"
+249	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"A, B, C"
+250	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	7	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A			"A, B, C, D, E"	9	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"A, B, D"	4	4	9	4	8	B	C	"D, E"
+251	"5
+5"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	D	"A, C, D"	"A, B, C, E, F"	44	98	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, D"	"26, 21, 34, 24, 28, 54"	"26, 21, 28, 30, 34, 54"	F	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	4	B	C	C
+252	"5
+3"	D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"A, B, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	D	"E, C, L, B, F, A, G"	C	B	2	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, E"	15	"mad
+mid
+midterm
+mind
+mint"	B	4	4	8	4	7	B	C	"C, E"
+253	"5
+3"	"D, E"	"A, B, C"	b 56	hlo	"A, B, C, D"	E	"B, C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	8	4	4	B	C	"C, E"
+254	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	44	98	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	1	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	4	B	C	"C, E"
+255	"5
+3
+"	D	"A, B, C"	b 56	"h
+l
+o
+"	E	E	"A, B, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	2	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	25	4	4	B	C	"A, C, E"
+256	"5
+3"	"D, E"	"A, C"	b 57 myprogram.cpp	"h
+l
+o"	"A, B"	E	"C, D"	"A, B, C, D, E, F"	43	49	2	"A, C, D"	B	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 15, 5, 18, 26"	2	1		"26, 21, 34, 24, 28, 54"		"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, C"	4	4	24	4	4	B	B	"A, C, E"
+257	"5
+3"	E	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"A, B"	E	"B, C, D"	"A, B, C, E, F"	43	48	2	"C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	6	"MAD
+MID
+MIND
+MINT
+TERM"	"C, D"	4	4	24	3	3	C	C	"C, D"
+258	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	4	B	B	"C, E"
+259	"5
+3
+"	E	"A, B, C"	b myprogram.cpp:56	"h
+l
+o
+"	"B, C"	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+260	"5
+3
+"	"D, E"	"A, B, C"	b 56	"h
+l
+o
+"	B	D	"A, B, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3		1	2	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	12	6	8	B	C	"C, E"
+261	"5
+3
+"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	C	E	"B, C, D"	"B, C, D, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	30	4	5			"C, E"
+262	"5
+3"	E	"A, B, C"	break 56	hlo	B	D	C	"A, C, F"	182	50	2	"A, C, D"	"B, C, D"	"E, C, L, B, F, A, G"	C	A	2	"A, B"	"A, C"	3	"13, 12, 18, 5, 15, 26"	1	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D"	5	"MAD
+MID
+MIDTERM
+MID
+MINT
+"	"B, D"	4	4	10	4	9	B	C	"A, C, E"
+263	5 3	E	"B, C"	b 56	"h
+l
+o"	"A, B"	E	"B, C, D"	"B, D, F"	43	98	2	"A, C, D"	"B, C"	"E, C, L, B, F, A, G"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	4	9	C	C	"B, C, E"
+264	"5
+3"	D	"A, C"	break 56	"h
+l
+o"	"B, C"	E	"A, B, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	C	"A, C, E"
+265	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	hlo	C	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 26, 5, 15, 18"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4					B	C	"A, C, E"
+266	"5
+3"	D	"A, C"	b myprogram.cpp:57	"h
+l
+o"	"B, C"	E	"C, D"	"A, B, C, F"	44	49	2	"A, C, D"	B	"E, C, G, B, F, L, A"	C	A	0	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A					"MAD 
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	6	4	4	B	C	"A, C, E"
+267	"5
+3
+"	A	"A, B, C"	break 56	"h
+l
+o
+"	"B, C"	E	"C, D"	"A, B, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	E	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D, E"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	10	4	9	B	E	"C, E"
+268	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"B, C"	D	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 24, 34, 21, 28, 54"		"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	5	B	B	"C, E"
+269	"5
+3"	"A, D"	"A, B, C"	break 56	"h
+l
+o"	"A, B"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mint
+mind"	"B, C, D"	5	5	8	4	4	B	C	"C, D"
+270	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"			A			"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+271	"5
+5"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"A, D"	"A, B, C, E, F"	44	49	2	"A, B, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	A	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	C	"C, E"
+272	"5 
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"A, B"	E	"B, C, D"	"A, B, C, E, F"	44	40	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	9	4	4	B	C	"A, D, E"
+273	"5
+3"	D	"A, B, C"	break 56	hlo	"B, C"	E	"B, C, D"	"A, B, D, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 30, 21, 54"	"A, B, C, D, E"	7		"B, C, D"	5	3						
+274	"5
+3"	D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	D	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, D"	4	4	9	4	4	B	C	"A, C, D, E"
+275		D	"A, B, C"	b 56								2	"C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	4	B	C	"A, B, C, E"
+276	"5
+3"	D	"A, B, C"	b 56	hlo	"A, B"	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND
+"	D	4	4	8	4		B	C	"A, C, E"
+277	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D, E"	"E, C, F, B, G, A, L"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	2	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	4	B	C	"C, E"
+278	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+0"	C	C	"C, D"	"A, B, F"	44	50	2	"A, B, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	0	"A, B"	"A, C, D"	4	"13, 12, 18, 5, 15, 26"	1	1	"C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, D"	3	"ad
+mad
+midterm
+mind
+mint"	"B, D"	4	4	5	4	5	B	C	"C, E"
+279	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:14	"h
+l
+o"	"B, C, D"	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	5	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4				B	C	"C, E"
+280	"5
+3"	D	A	break 56	hlo	"A, B, C"	D	"B, D"	"B, D, E"	44	50	2	"A, C, D"	"B, D"	"E, C, A, B, F, G, L"	C	C	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1				"A, B, C, D"	7	"mad
+midterm
+mind
+mint"	B	4	4	9	4	4	B	C	"C, D, E"
+281	"5
+3
+"	D	"A, B, C"	break 56	"h
+l
+o
+"	B	E	D	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"26, 21, 34, 28, 54, 30"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	5	3	B	C	"C, E"
+282	"5
+5"	E	"A, B, C"	b myprogram.cpp:56	"h
+l
+o
+"	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	A	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+283	"5
+3
+"	"D, E"	"A, B, C"	break 56	"h
+l
+o
+"	B	E	"B, C, D"	"A, B, C, D, F"	43	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	10	4	6	B	C	"C, E"
+284	"2
+3"	"A, D, E"	A	b 56	hlo	"B, D"	D	"B, D"	"A, B, C, F"	1	100	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	8	B	F	"C, E"
+285		D	D	b 56	"h
+l
+o"		E			44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID 
+MIDTERM
+MIND
+MINT "	B	4	4	10	4	3	B	C	"C, E"
+286	"5
+5"	"D, E"	A	b 56	hlo	"B, C"	E	"A, C, D"	"A, B, C, F"	42	51	2	"A, C, D"	"D, E"	"E, C, L, B, F, A, G"	C	B	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	10	4	5	D		"C, E"
+287	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	B	E	"C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	6	1	2	B	C	"C, D, E"
+288	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	A	C	2	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	5	6	B	D	"C, E"
+289	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, D"	"B, D, F"	1	50	2	"A, C, D"	"B, D"	"E, C, F, B, G, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIND
+MINT
+MINTD
+MIDTERM"	"A, B, D"						C	B	E
+290	"5
+3"	"D, E"	"A, B, C"	break 56	hlo	C	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"		"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	6	B	C	"C, E"
+291	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	5			4	4	B	B	"A, B"
+292	"5
+5"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, B, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	B	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1		A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	A	7	"mad
+mid
+midterm
+mint
+mind"	"B, D"	4	4	10	4	6	B	B	
+293	"5
+3"	"A, B, D, E"	"A, B, C"	b 56	"h
+l
+o"	E	E	"B, C, D"	"A, B, C, E, F"	44	50	1	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	1	"13, 12, 18, 5, 15, 26"	2							"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	F	"A, C, E"
+294	"5
+3"	D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"		E				50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	1	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	5	4	B	C	"A, B, E"
+295	"5
+5"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o
+"	"B, C, D"	E	B	"A, B, C, F"	1	193	2	"A, C, D"	F	"E, C, F, B, G, A, L"	B	A	1	B	"A, C, D"	0		1		"A, D"				8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	8	B	C	"C, E"
+296	"5
+3"	E	"A, B, C"	break 56	"h
+l
+o"	"A, B, C"	E	"A, C, D"	"B, C, D, E"	44	50	2	"A, C, D"	"B, D"	"E, C, F, B, G, L, A"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+297	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"B, D"	E	"A, D"	"A, B, C, E, F"		50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1		"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	G	"C, E"
+298	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C, D"	E	"B, C, D"	"B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	10	4	5	B	C	
+299	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	4	B	C	"C, E"
+300	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"A, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, C, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	9	B	B	"D, E"
+301	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	B	D	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	4	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	D	4	4	10	5	9	B	G	"C, E"
+302	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	3	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	6	C	E	F
+303	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	hlo	B	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	6	"mad
+mid
+midterm
+mind
+mint"	B	5	4	11	4	4	B	B	"A, C, D, E"
+304	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	B	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	8	4	12	B	C	"C, E"
+305	"5
+3"	D	"A, B, C"	break 56	hlo	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	E	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	3				B	E	"C, D, E"
+306	"5
+5"	D	"A, B, C"	b 56	"h
+l
+o"	B	E	"C, D"	"A, B, D, F"	44	49	2	"A, C, D"	"B, D"	"E, C, F, B, G, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"30, 26, 34, 21, 28, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	25	4	4	B	C	"C, E"
+307	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	"A, B"	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, G, B, F, A, L"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	B	"C, E"
+308	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"B, C, D, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	5	4	B	C	"C, E"
+309		"D, E"	"A, C"	break 56	hlo	"A, B"	E	"A, C, D"		44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	C	2	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	3	10	4	4	B	C	"A, B, C, D"
+310	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	hlo	"B, C"	E	"B, C, D"	"A, B, C, E, F"	43	49	0	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, B, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"26, 21, 34, 28, 54, 30"	"C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	4	3	B	C	"C, E"
+311		D	"A, B, C"	b myprogram.cpp:56	hlo	"B, D"	E	C	"A, B, C, F"		49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, C, D"	4	4	25	4	4	B	C	"A, C, E"
+312	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D, E"	"E, C, B, F, L, A, G"	C	A	2	C	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	B	"C, E"
+313	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, B, C, D"	3	"13, 12, 18, 5, 15, 26"			B	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, C, D"	4	4	9	4	4	B	C	"C, E"
+314	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	4	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	6	B	C	C
+315	"5
+3"	D	"A, B, C"	break myprogram.cpp:57	"h
+l
+o"	"B, C"	E		"A, B, D"	200	50	2	"A, B, C, D"	E	"E, C, G, B, F, L, A"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, D"	4	4				C	C	"A, E"
+316	"7
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	C	D	"A, B"	"A, B"	44	49	4	"C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	B	4	4	10	4	5	B	C	"C, E"
+317	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	D	A	"A, B, F"	0	6	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	3	1	"A, B, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	25	4	6	B	G	"C, E"
+318	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	2	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM 
+MINT
+MIND
+"	"C, D"	4	2	9	4	4	B	C	"C, E"
+319	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C"	2	"13, 12, 18, 5, 15, 26"	1	2	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	11	4	11	B	G	C
+320	"5
+3"	"C, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mint
+mind"	B	4	4	5	5	4	B	B	"B, C, D, E"
+321	"5
+3"	"A, B, C, D"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, D"	"A, B, C, E, F"	44	10	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	3	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	24	5	5	B	B	"C, D, E"
+322	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	0	"13, 12, 18, 5, 15, 26"	1	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7		"A, B, D"	4	4				B		
+323	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, F"	44	48	1	"A, C, D"	"B, C, D, E"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	2	"C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	5	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"A, D"	4	3	11	3	2	B	C	"C, E"
+324	"5
+3"	D	"A, B, C"	b 56	"h
+l 
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	0	6	0	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	5	4	4	B	C	"C, D, E"
+325	"5
+3"	"D, E"	"A, B, C"	b 56	hlo	B	E	"B, D"	"B, C, F"	43	51	2	"A, C, D"	"B, D"	"E, C, F, B, G, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	6	4	4	B	F	"A, C"
+326	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	"A, B"	E	"B, C, D"	"B, C, D, F"	42	51	1	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	B	A	3	A	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C"	9	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	
+327	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, C, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, B, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7			5	4	9	3	3	B	C	"B, C, E"
+328	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	55	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	6	6	B	C	"C, E"
+329	"8
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"B, C, E, F"	44	49	2	"A, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C"	2	"13, 12, 18, 5, 15, 26"	2	2	A	"26, 21, 34, 24, 28, 54"	"21, 28, 26, 34, 30, 54"	"A, B, C, D"	5	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	3	B	C	"A, C, E"
+330	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"B, C, D"	E	"C, D"	"B, D"	43	99	2	"A, C, D"	"B, D"	"A, C, B, G, F, E, L"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"A, B, C, E"
+331	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, D"	E	"B, C, D"	"A, B, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"26, 21, 30, 28, 34, 54"	F	4	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	10	4	4	B	C	C
+332	"5
+3
+"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o
+"	D	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD 
+MID
+MIDTERM
+MIND
+MINT
+MIDTERM"	D	4							
+333	"5
+3"	"D, E"	"A, B, C"	break myprogam.cpp:56	hlo	"B, C"	E	"A, D"	"A, B, F"	277	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	A	"A, C"	3	"13, 12, 18, 5, 15, 26"	3	2	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D"	7	"MAD 
+MID
+MIDTERM
+MIND 
+MINT"	"B, D"	4	4	10	4	5	B	E	"C, E"
+334	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	6	B	C	"C, E"
+335	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	B	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"A, B, C, E"
+336	"5
+5"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3		2	1	A	"34, 26, 54, 21, 28, 24"		"B, C, D"	4	"mad
+mid
+midterm
+mind
+mint"	E	4	4	24	4	4	B	C	
+337	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C"	43	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 26, 5, 15, 18"	2	2	C		"26, 28, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+mint
+mind
+midterm"	"A, D"		3			23	B	G	"B, D, E"
+338	"5
+3
+"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o
+"	"A, B, D"	E	"B, C, D"	"A, B, D, F"	44	50	2	"A, C, D"	B	"E, C, L, B, F, A, G"	C	A	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"28, 24, 34, 21, 26, 54"	"30, 26, 34, 21, 28, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, D"	4	4	10	4	3	G	C	"A, C, D"
+339	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	B	E	"A, B, C"	"A, B, C, E, F"	43	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	3	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	2	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	3		G	G	"A, B, C"
+340	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o
+"	B	E	"A, B, C, D"	"A, B, C, F"	44	100	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"C, D"	0	"13, 12, 15, 5, 18, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	2	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	24	4	3	B	B	"A, D, E"
+341	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	E	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B								"34, 26, 54, 21, 28, 30"	"A, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+342	"5
+3"	"A, C, D"	"A, B, C"	b myprogram.cpp:56	"h
+l"	C	D	"C, D"	"E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	4	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	1	0	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	9	5	5	B	C	E
+343	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	"A, B, C"	E	"B, C, D"	"A, B, C, F"	44	99	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	B	2	"B, D"	"A, C, D"	0				D		"34, 26, 54, 21, 28, 30"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	10	4	4	B	B	C
+344	"5
+3"	D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"C, D"	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	F	"E, C, F, B, G, A, L"	B	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	2	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	4	4	B	C	"C, E"
+345	"5
+5"	D	"A, B, C"	"break myprogram.cpp:56
+"	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, F, B, G, A, L"	C	B	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	9	4	5	B	C	"C, E"
+346	"5
+3"	"D, E"	"A, B, C"							44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	5	C	C	C
+347	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, D"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	3	10	4	5	C	C	"C, E"
+348	"5
+5"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"A, B, C"	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7			5	3	9	3	3	B	B	"A, B, C, D, E"
+349	"5
+3
+"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o
+"	E	E	"B, C, D"	"A, B, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+350	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 26, 5, 15, 18"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4		4	3		B	"A, B, C, E"
+351	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	"A, B, C, D"	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	4	"mid
+midterm
+mad
+mint
+mind"	"B, D"	4	4	5	4	3	B	C	"C, E"
+352	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	E	E	"B, C, D"	"C, D, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, B, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	C	"C, E"
+353	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"A, B"	E	"B, C, D"	"A, B, D, F"	44	51	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	4		2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, C, D"	4	4	7	6	8	C	B	"C, E"
+354	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C, D"	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	10	4	5	B	C	"A, B, C"
+355	"2
+3"	D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"			2	1	A	"26, 21, 34, 28, 54, 24"		"A, B, C, D, E"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4						
+356	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:57	hlo	"B, C"	D	"B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	1	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	D	4	4	10	5	4	B	C	"A, C, D"
+357	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	D	D	"A, B, C, E, F"	44	99	2	"A, C, D"	B	"E, C, F, B, G, A, L"	C	C	1	B	"C, D"	2	"13, 12, 18, 5, 15, 26"	2	2	A	"26, 21, 34, 24, 28, 54"	"34, 28, 54, 26, 30, 21"	"C, D"	5	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	12	6	6	B	C	C
+358	"5
+3"	"D, E"	"A, B, C"	b 56	hlo	"B, C"	D	"A, C, D"	"A, B, D, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 15, 5, 18, 26"	2	1	A			"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	5	4	3	B	C	"C, E"
+359	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	99	2	"A, C, D"	"B, C, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"34, 26, 54, 21, 28, 24"	"34, 26, 54, 21, 28, 30"	"A, B, C, D, E"	4	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	13	4	6	B	C	"C, E"
+360	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	3	3	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	5	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	5	5	6	5	4	B	C	"C, E"
+361	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"A, B, D"	"B, D, E, F"	1	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"24, 26, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	6	"Mad
+mid
+midterm
+mind
+mint"	E	3	4	6	4	6	B	B	"A, B, E"
+362	"5
+3
+"	D	"A, B, C"	break 56	"h
+l
+o
+"	B	E	"A, B, D"	"A, B, C, E, F"	44	98	2	"A, C, D"	F	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	3	25	4	3	B		
+363	"5
+5"	D	"A, B, C"	break 56	"h
+l
+o"	"B, C"	D	"A, C, D"	"B, C, D, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	C	"A, B, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	1	"MAD
+MID
+MIDTERM
+MIND
+MINT
+
+"	B	4	4	25	4	6	B	C	"C, E"
+364	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, D"	E	"B, C, D"	"A, B, C, F"	44	25	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	4	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	25	4	5	C	C	"C, E"
+365	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	43	50	2	"A, B, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"			"A, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	A	4	"mad
+mid
+midterm
+mind
+mint
+"	"B, D"	5	4	30	29		D		
+366	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:57	"h
+l
+o"	B	D	"C, D"	"A, B, C, D, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	10	4	5	B	C	"C, E"
+367	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp: 56	"h
+l
+o"	"B, D"	E	"B, C, D"	"A, B, C, F"		50	2		"B, D"	"E, C, G, B, F, L, A"	C	A	3	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	3	B	C	"C, E"
+368	"5
+3"	D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"A, B"	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	24	6	5	G	G	"C, E"
+369	"5
+5"	"A, B, C, D"	"A, B, C"	break 56	hlo	"A, B, C"	D	"A, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"D, E"	"E, C, L, B, F, A, G"	B	A	2	A	"A, C, D"	1	"13, 12, 18, 5, 15, 26"	2	4	A	"26, 24, 34, 21, 28, 54"	"30, 26, 34, 21, 28, 54"	"A, C"	4	"MAD
+MIDMTERM
+MIND
+MINT"	"B, D"	4	4	25	4	4	B	B	"B, C, D, E"
+370	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	E	"A, B, D, F"	44	49	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	6	B	C	"A, C, E"
+371	"2
+5"	E	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"B, C"					"A, B, D"				4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	5	4	10	4	4	C	C	"C, E"
+372	"5
+3
+"	D	"A, B, C"	b 56	"h
+l
+o
+"	B	E	"B, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	6	B	C	"C, E"
+373	"5
+5"	"A, B, D, E"	A	"gdb break myprogram.cpp:56 if not current file, if current file gdb break 56"	hlo	"A, B, C"	E	"B, C"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	3	1	E	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+374	"5 
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h 
+l
+o"	B	E	"A, B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"21, 24, 28, 26, 34, 54"	"21, 26, 30, 28, 34, 54"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	10	4	4	B	C	"C, E"
+375	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, D, E"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	9	4	3	B	C	"C, E"
+376	"5
+3
+"	"D, E"	"A, B, C"	b 56	hlo	B	E	"C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	4	B	"A, C, D"	1	"13, 12, 26, 5, 15, 18"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	G	"C, E"
+377	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"A, B"	E	"A, B"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	1	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	7	4	4	B	C	
+378	"5
+3"	C	"A, B, C"	break myprogram.cpp:56	hlo	"B, C"	E	"B, C, D"	"B, C, D, E"	1	99	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	4	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, D"	4	4	10	4	5	B	C	"A, B, C, E"
+379	"5
+3"	"D, E"	"A, B, C"	b 56	hlo	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	"B, C"	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	8	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	10	4	4	B	C	D
+380	"5
+3"	D	"A, B, C"	break 56	hlo	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	24	23		B	C	
+381	"5
+3"	"D, E"	"A, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	6	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	B	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	B	4	4	9	4	5	B	C	"C, D, E"
+382	"5
+3
+"	"D, E"	"A, C"	r myprogram.cpp:56	"h
+l
+o
+"	"B, C"	D	"B, C, D"	"A, B, C, F"	1	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A				4	"MAD
+MID
+MIDTERM
+MIND
+MINT
+
+"	"B, D"	4	4	10	4	3	B	C	"C, E"
+383	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o
+"	B	E	"B, C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	D	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	5	4						
+384	"5
+5"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"		D		"A, C, D, E, F"		49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, B, D"	3	4	30	4	5	B	C	"A, B, C, E"
+385	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, C"	4	4	5	4	4	B	C	"C, E"
+386	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"B, C, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	4	4	B	C	"A, C, E"
+387	"5
+5"	E	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, D"	"A, B, C"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	3	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	10	4	4	B	C	"A, C, E"
+388	"5
+3"	D	"A, B, C"	b 56	hlo	"A, B"	E	"C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	7	4	4			
+389	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"B, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	B	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"B, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	8	4	4	B	C	E
+390	"5
+3"	D	"A, B, C"	"break 56
+b 56"	"h
+l
+o"		E		"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+391	"5
+3"	E	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	1	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	E	"A, C, D"	3				"A, C, D"			F	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	10	B	C	"C, E"
+392	"5
+3"	"D, E"	"A, B, C"	br 56	"h
+l
+o"	"B, C"	D	"A, B, C, D"	"A, B, C, E, F"	44	98	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	2	"A, C"	"34, 24, 54, 21, 26, 28"	"34, 21, 26, 28, 30, 54"	"A, C"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	8	B	C	"C, E"
+393	"5
+3"	E	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, D"	"A, C, F"	42	49	2	"A, C, D"	"C, E"	"E, C, L, B, F, A, G"	C	A	2	D	"A, C"	2		2	1	E	"26, 21, 34, 24, 28, 54"				"MAD
+MID
+MIDTERM
+MIND
+MINT"	"A, C"	4	4	11	6		C	C	"C, D, E"
+394	"2
+5"	D	"A, B, C"	br 56		"A, B, C"	E	"B, D"	"A, B, C, D, E, F"	1	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	27	4	4	B	C	"C, E"
+395	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, E"
+396	"5
+3"	D	"A, B, C"	break 56	hlo	C	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"B, C, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"mad
+mid
+midterm
+mind
+mint
+
+
+
+"	"A, B"	4	4	9	4	3	B	F	"B, C, D"
+397	"5
+3
+"	"D, E"	"A, B, C"	b myprogram.cpp:56	"h
+l
+o
+"	E	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	10	4	4	B	C	
+398	"5
+3"		"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, D"	E			44	49	2	"A, C, D"	B	"E, C, L, B, F, A, G"	B	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	E	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	F	15	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"			5	4	3	B		"C, E"
+399	"5
+3"	D	"A, B, C"	break 57	"h
+l
+o
+"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, B, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, C, D"	4	4	9	4	8	B	B	"A, B, C, D, E"
+400	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	A	D	"A, B, F"	0	50	2	"A, B, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	1	E	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	15	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+401	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"C, D"	"B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"C, D"	1	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C"	"34, 24, 54, 21, 26, 28"	"34, 30, 54, 26, 21, 28"	"A, E"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"				9	3	5	B	B	D
+402	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"A, B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"30, 26, 34, 21, 28, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	12	4	4	B	E	"C, E"
+403	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, C, F"	45	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	B	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	"C, D"	"24, 26, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	3	9	3	5	B	G	"C, D"
+404	"5
+3"	D	"A, B"	break 56	"h
+l
+o"	C	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, B, C, D"	2	"13, 12, 26, 5, 18, 15"	1	3	"A, B, C, D"	"28, 24, 34, 21, 26, 54"	"30, 26, 34, 21, 28, 54"	"A, B, C"	7	"mad
+mid
+midterm
+mind
+mint
+"	B	4	4	10	4	5	B	C	"C, E"
+405	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	C	E	"B, C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, F, B, G, L, A"	C	A	2	B	"A, C, D"	2	"13, 12, 15, 5, 18, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	C	"C, E"
+406	"5
+3"	E	"A, B, C"	b 56	"h
+l
+o"	"B, D"	E	"B, C, D"	"A, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	A	"A, C"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	8	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	5	5		5		B	C	"C, E"
+407	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp 56	"h
+l
+o
+"	E	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, C, D"	"E, C, L, B, F, A, G"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	3	"A, D"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	10	4	3	B	B	C
+408	"5
+3"	"D, E"	"A, B, C"	b 56	hlo	B	E	"B, C"	"B, C, E, F"	44	49	2	"A, B, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"C, D"	2	"13, 12, 18, 5, 15, 26"	1	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	8	4	4	B	C	"C, E"
+409	"5
+5"	D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	E	E	"B, D"	"B, C, D, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"B, D"	4	4	10	4	4	B	C	"C, D, E"
+410	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	"B, D"	4	4	10	4	5	B	C	"C, E"
+411	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	2	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, D, E"	15	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	4	5	B	C	"C, E"
+412	"5
+3
+"	D	"A, B, C"	break myprogram:56	"h
+l
+o
+"	B	E	"B, C"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	3	A	A	
+413	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	3	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B		4	10	4	4	B	C	
+414	"5
+3"	D	"A, B, C"	b myprogram.cpp:56	"h
+l
+o"	B	D	"A, B, D"	"A, B, C, D, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	3	4	9	4	5	B	B	"C, D"
+415	"5
+3
+"	"D, E"	"A, B, C"	b 56	"h
+l
+o
+"	D	E	"B, C, D"	"A, B, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"C, D"	4	4	10	2	12	B	C	"C, E"
+416	"5
+3
+"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	43	49	2	"A, C, D"	"B, C, D"	"E, C, L, B, F, A, G"	C	A	2	B	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7		"A, C"						B	C	"A, C, D, E"
+417	"5
+3
+"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	E	E	"C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"		"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+418	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	3	13	4	4	A	C	
+419	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, F, B, G, A, L"	C	A	2	B	"A, C, D"	3	"18, 13, 26, 12, 15, 5"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"26, 21, 34, 28, 54, 30"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MINT
+MIND"	D	4	4	7	4	3	B	C	"C, E"
+420	"5
+5"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	E	E	"A, B, D"	"A, C, E, F"	44	50	2	"A, C, D"	"C, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C"	3	"13, 12, 18, 5, 15, 26"	3	4	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	25	4	4	B	C	"C, E"
+421	"5
+3"	E	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	2	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"30, 26, 34, 21, 28, 54"	F	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	5	B	C	"C, E"
+422	"5
+3"	C	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"A, B, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	24	24		B	C	"D, E"
+423	"5
+3
+"	D	"A, B, C"	"break myprogram.cpp:56
+"	"h
+l
+o
+"	B	E	"B, C, D"	"B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	3	A	"A, C"	3	"13, 12, 18, 5, 15, 26"	2	2	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	8	B	C	"C, E"
+424	"5
+3
+"	"D, E"	D	break 56	"h
+l
+o
+"	B	E	"B, C, D"	"A, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	MAD MID MIDTERM MIND MINT	"B, D"	4	4	4	3	4	B	C	"C, D, E"
+425	"5
+3"	A	A	break myprogram.cpp:55	"h
+l
+o"	"A, B"	D	"B, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, B, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"21, 26, 34, 30, 28, 54"	"C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	4	4	4	B	C	"C, E"
+426	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp: 56	"h
+l
+o"	B	E	"B, C, D"	"A, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, C, D"	4	4	9	5	7	B	B	"A, D, E"
+427	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	51	2	"A, C, D"	"B, D"	"E, C, B, F, L, A, G"	C	A	2	C	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7		A	2	3				A	A	"B, C, D"
+428	"5
+3
+"	D	"A, B, C"	break 56	"h
+l
+o
+"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"24, 26, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	3						
+429	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, D, F"	44	50	2	"A, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 26, 5, 15, 18"	2	1	A	"26, 24, 34, 21, 28, 54"	"26, 28, 34, 21, 30, 54"	F	15	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	3	4	10	4	6	B	C	"B, C, D, E"
+430	"5
+3
+"	D	"A, B, C"	b 56	"h
+l
+o
+"	"B, C"	E	"B, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2		"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+431	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"A, B, C"	E	"B, C, D"	"A, B, C, F"	44	98	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"26, 21, 34, 30, 28, 54"	"A, B, C, D"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B	E	"C, E"
+432	"5
+3"	E	"A, C"	break myprogram.cpp:56	"h
+l
+o"	"B, D"	E	"B, C, D"	"A, B, C, F"	44	24	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	2	"A, D"	"26, 21, 34, 24, 28, 54"	"26, 21, 34, 28, 54, 30"	"A, B, E"	8	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	8	B	C	"A, C"
+433	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"B, C, D, E, F"	10	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C, D"	"26, 24, 34, 21, 28, 54"	"30, 26, 34, 21, 28, 54"		9	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	4	4	10	4	4	B	C	"C, E"
+434	"5
+3"	D	"A, B, C"	b 56	"h
+l
+o"	"A, B, C"	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	B	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	3	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	9	4	4	A	A	F
+435	"5
+3"	"A, B, C"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, D"		"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	3	"A, B, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	E	4				4	B	C	
+436	"5
+3"	D	"A, B, C"	break myprogram.cpp: 56	"h
+l
+o"	C	E	"B, C, D"	"A, B, C, E"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	B	3	4	9			B		
+437	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	4	B	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	4	B	B	"A, C, E"
+438	"5
+3
+"	"D, E"	"A, B, C"	break 56	"h
+l
+o
+"	B	E	"C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"		4	4	10	4	3	B	C	"C, D"
+439	"2
+5"	D	"A, B, C"	b 56 myprogram.cpp	"h
+l
+!"	B	D	"B, C, D"	"A, B, C, D, E, F"	44	20	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	3	B	C	C
+440	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	7	B	C	"A, C, E"
+441	"5
+3
+"	"D, E"	"A, B, C"	b 56	"h
+l
+o
+"	B	E	"B, D"	"A, B, C, F"	44	49	1	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"34, 24, 54, 21, 26, 28"				"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	9	3	3	B	C	"A, B, C, D, E"
+442	"5
+3
+"	D	"A, B, C"	b 56	"h
+l
+o
+"	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	4	B	C	"A, B, C, E"
+443	"5
+3"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"A, C"	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	5	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"C, E"
+444	"5
+3
+"	"D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	"A, B"	4	4	7	4		B	F	
+445	"5
+3"		"A, B, C"	b 56	"h
+l
+o"		E	"B, C, D"	"A, B, C, E, F"	44	49	2		"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, B, D"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	E	3	3	2	4	3	F	C	"D, E"
+446	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"C, D"	3	"13, 12, 15, 5, 18, 26"	2	1	"A, C"	"21, 24, 26, 28, 34, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, E"
+447	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	E	E	"A, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	6	B	C	E
+448	"5
+3"	"A, D, E"	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C"	"B, C, D, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	A	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	4	B	C	"C, E"
+449	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"C, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"C, D"	1	"13, 12, 18, 5, 15, 26"	2	1	"A, B, C"	"26, 24, 34, 21, 28, 54"	"21, 28, 26, 34, 30, 54"	"A, B"	6	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	G	"C, E"
+450	"5
+3"	"D, E"	"A, B, C"	b myprogram.cpp:15	"h
+l
+o"	B	D	"A, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, B, C"	3	"13, 12, 18, 5, 15, 26"	2	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	25	4	24	B	E	"A, C, E"
+451	"5
+3"	A	"A, B, C"	b 56	"h
+l
+o"	B	E	"B, C, D"	"A, C, F"	45	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	B	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	4	B	C	"A, B, C, D, E"
+452	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, F"	45	49	2	"A, C, D"	"B, D, E"	"E, C, L, B, F, A, G"	C	A	2	"A, B, C, D"	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	4	"MAD
+MID
+MIDTERM
+MIND
+MINT"	E	4	4	10	4	6	B	C	"C, E"
+453	"5
+3"	A	D	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIND
+MINT
+MIDTERM"	B	4	3	9	3	16	F	B	C
+454	"5
+3"	D	"A, B, C"	break myprogram.cpp: 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, D"	4	4	10	4	5	B		
+455	"5
+3"	D	"A, B, C"	b myprogram.cpp:56	hlo	B	E	"B, C, D"	"A, B, C, E, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, D"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT
+"	B	4	4	9	3	4	A	E	"C, E"
+456	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	E	E	"A, B, D"	"A, B, C, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	13	4	5	E	D	F
+457	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, E, F"	44	48	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	"B, C, D"	4	4	10	4	4	B	C	"C, E"
+458	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	D	"B, C, D"	"A, B, C, D, E, F"	44	50	2	"A, C, D"	B	"E, C, L, B, F, A, G"	C	A	2	B	"B, C, D"	2	"13, 12, 18, 5, 15, 26"	1	1	C	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	C	7	"MAD
+MID
+MIDTERM
+MIND
+MINT"	B	4	4	10	4	4	B	C	"A, B, C, E"
+459	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, D"	"A, C, F"	44	49	2	"A, D"	"B, D"	"E, C, G, B, F, L, A"	C	C	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7	"MAD
+MID
+MIDTERM
+MINT
+MIND"	"B, D"	4	4	10	4	4	B	C	"A, C, E"
+460	"5
+3"	"D, E"	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"B, C, E, F"	44	50	2	"A, B, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	B	"A, C, D"	3	"13, 12, 15, 5, 18, 26"	2	1	A		"34, 30, 54, 26, 28, 21"	"A, B, C, D"	7	"mad
+mid
+midterm
+mind
+mint"	B	4	4	10	4	10	B	C	"C, E"
+461	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	E	E	"B, C, D"	"A, B, C, F"	44	50	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	D	"26, 21, 34, 24, 28, 54"		"A, B, C, D"	7										
+462	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	B	D	"B, C, D"	"A, B, C, F"	44	50	2	"A, B, C, D"	"B, D"	"E, C, L, B, F, A, G"	B	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"C, E"	7										
+463	"5
+3"	D	A	gdb break 56	"h
+l
+o"	"A, B, C"	E	"B, D"		1		2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 24, 34, 21, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D, E"	7										
+464	"5
+3"	D	D	break myprogram.cpp:56	"h
+l
+o"	"B, C"	E	"B, C, D"	"A, B, C, D, E"	44	50	2	"A, C, D"	"B, D"	"E, C, G, B, F, L, A"	C	A	2	D	"A, C, D"	3	"13, 12, 18, 5, 15, 26"	2	1	"A, C"	"26, 21, 34, 24, 28, 54"	"28, 26, 34, 21, 30, 54"	"A, B, C, D"	7										
+465	"5
+3"	"D, E"	"A, B, C"	b 56	"h
+l
+o"	E	D	"A, C, D"	"B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B	"A, C, D"	3	"13, 12, 15, 5, 18, 26"	2	1	"A, C"	"34, 21, 54, 24, 26, 28"		"A, B, C, D"	7										
+466	"5
+3"	D	"A, B, C"	break myprogram.cpp:56	"h
+l
+o"	B	E	"A, B, D"	"A, B, C, E, F"	44	49	2	"A, C, D"	"B, D"	"E, C, L, B, F, A, G"	C	A	2	B																				
+467	"5
+3"	D	"A, B, C"	break 56	"h
+l
+o"	B	E	"B, C, D"	"A, B, C, D, E, F"	44	50	2	"A, C, D"	"B, C, D"	"E, C, L, B, F, A, G"	C	A	2	A																				
