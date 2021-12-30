@@ -62,8 +62,8 @@ if __name__ == "__main__":
     sorted_ed_csv_fns = sorted([fn.strip() for fn in argv[2:]])
     questions, responses, correct = load_ed_responses(sorted_ed_csv_fns)
     sorted_emails = sorted({email for csv_fn in responses for email in responses[csv_fn]})
-    with open(argv[1].strip(), 'w') as out_tsv_fn:
-        out_tsv = writer(out_tsv_fn, delimiter='\t')
+    with open(argv[1].strip(), 'w') as out_tsv_f:
+        out_tsv = writer(out_tsv_f, delimiter='\t')
         out_tsv.writerow(["Email", "Correct"] + ['%s (%s)' % (csv_fn,q) for csv_fn in sorted(questions.keys()) for q in questions[csv_fn]])
         for email in sorted_emails:
             curr_correct = list(); curr_responses = list()
