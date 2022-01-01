@@ -16,7 +16,7 @@ chmod a+x MESS.py
 sudo mv MESS.py /usr/local/bin/MESS.py # optional step to install globally
 ```
 ## Usage
-ViralMSA can be used as follows:
+A comprehensive list of MESS arguments can be found below, but we highly recommend following the [Tutorial](../../wiki/Tutorial) section of the [MESS Wiki](../../wiki).
 
 ```
 usage: MESS.py [-h] -i INPUT -ot OUTPUT_TSV -op OUTPUT_PDF
@@ -51,3 +51,6 @@ optional arguments:
   -yM YMAX, --ymax YMAX                              Figure Maximum Y (default: None)
   --no_ylog                                          Don't Plot Y-Axis in Log-Scale (default: False)
 ```
+
+# Citing MESS
+A manuscript is in the works, but until it's released, please cite this GitHub repository.
