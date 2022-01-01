@@ -19,6 +19,10 @@ matplotlib.use("Agg")
 # constants
 VERSION = '1.0.0'
 
+# no correction
+def qvalues_nocorrection(pvalues):
+    return list(pvalues)
+
 # bonferroni correction
 def qvalues_bonferroni(pvalues):
     return [min(1, p*len(pvalues)) for p in pvalues]
@@ -38,6 +42,10 @@ CORRECTION = {
     'benjamini_hochberg': {
         'name': "Benjamini-Hochberg",
         'func': qvalues_benjamini_hochberg,
+    },
+    'none': {
+        'name': "No Correction",
+        'func': qvalues_nocorrection,
     },
 }
 
