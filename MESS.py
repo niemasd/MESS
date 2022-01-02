@@ -17,7 +17,7 @@ import matplotlib
 matplotlib.use("Agg")
 
 # constants
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 
 # no correction
 def qvalues_nocorrection(pvalues):
@@ -198,9 +198,8 @@ def write_mess_output(output_tsv_fn, mess, p_values, q_values, rate, loc, correc
             m, u, v = mess[i]; p = p_values[i]; q = q_values[i]
             out_tsv.writerow([u, v, m, p, q])
 
-# main content
-if __name__ == "__main__":
-    # parse user args
+# parse user args
+def parse_args():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('-i', '--input', required=True, type=str, help="Input Exam Responses (TSV)")
     parser.add_argument('-ot', '--output_tsv', required=True, type=str, help="Output MESS Spreadsheet (TSV)")
@@ -224,7 +223,12 @@ if __name__ == "__main__":
     parser.add_argument('-ym', '--ymin', required=False, type=float, default=None, help="Figure Minimum Y")
     parser.add_argument('-yM', '--ymax', required=False, type=float, default=None, help="Figure Maximum Y")
     parser.add_argument('--no_ylog', action='store_true', help="Don't Plot Y-Axis in Log-Scale")
-    args = parser.parse_args()
+    return parser.parse_args()
+
+# main content
+if __name__ == "__main__":
+    # parse and check user args
+    args = parse_args()
     if not isfile(args.input):
         error("Input file not found: %s" % args.input)
     for fn in [args.output_tsv, args.output_pdf]:
