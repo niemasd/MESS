@@ -53,4 +53,4 @@ optional arguments:
 ```
 
 # Citing MESS
-A manuscript is in the works, but until it's released, please cite this GitHub repository.
+A manuscript has been accepted to CCSC-SW 2022, but while it's in press, please cite this GitHub repository.
