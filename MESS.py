@@ -11,13 +11,14 @@ from os.path import isfile
 from scipy.stats import expon, gaussian_kde, linregress
 from seaborn import kdeplot
 from sys import argv, stderr, stdout
+from warnings import warn
 import argparse
 import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use("Agg")
 
 # constants
-VERSION = '1.0.1'
+VERSION = '1.0.2'
 
 # no correction
 def qvalues_nocorrection(pvalues):
@@ -29,6 +30,7 @@ def qvalues_bonferroni(pvalues):
 
 # benjamini-hochberg correction
 def qvalues_benjamini_hochberg(pvalues):
+    warn("Benjamini-Hochberg correction implementation seems to have a bug. Recommend using Bonferroni")
     sorted_unique_pvals = sorted(set(pvalues))
     rank = {p:(i+1) for i,p in enumerate(sorted_unique_pvals)}
     return [min(1, p*len(pvalues)/rank[p]) for p in pvalues]
@@ -83,13 +85,14 @@ def load_input_data(in_tsv_fn, ignore_case=False):
 
             # load current student's correct questions
             curr_student = row[0].strip(); curr_correct = set()
-            for q_orig in row[1].split(','):
-                q = q_orig.strip()
-                if q in curr_correct:
-                    error("Duplicate correct question: %s for student %s" % (q, curr_student))
-                if q not in question_to_ind:
-                    error("Student correct question label not found in header row: question '%s' for student '%s'" % (q, curr_student))
-                curr_correct.add(question_to_ind[q])
+            if len(row[1].strip()) != 0:
+                for q_orig in row[1].split(','):
+                    q = q_orig.strip()
+                    if q in curr_correct:
+                        error("Duplicate correct question: %s for student %s" % (q, curr_student))
+                    if q not in question_to_ind:
+                        error("Student correct question label not found in header row: question '%s' for student '%s'" % (q, curr_student))
+                    curr_correct.add(question_to_ind[q])
             correct[curr_student] = curr_correct
 
             # load current student's responses
@@ -127,27 +130,29 @@ def compute_mess(questions, responses, correct, ignore_case=False):
             correct_count[q_ind] += 1
     incorrect_count = [num_students-c for c in correct_count]
 
-    # compute MESS for all pairs of students
-    mess = list() # mess = list of (score, student1, student2) tuples
+    # compute MESS and proportion identical for all pairs of students
+    mess = list() # mess = list of (proportion identical, MESS score, student1, student2) tuples
     for student1_ind in range(num_students-1):
         student1 = sorted_students[student1_ind]; responses1 = responses[student1]
         for student2_ind in range(student1_ind+1, num_students):
-            student2 = sorted_students[student2_ind]; responses2 = responses[student2]; score = 0
+            student2 = sorted_students[student2_ind]; responses2 = responses[student2]; score = 0; prop_identical = 0.
             for q_ind in range(num_questions):
                 rs1 = responses1[q_ind]; rs2 = responses2[q_ind]
-                if q_ind not in correct[student1] and rs1 == rs2 and len(rs1) != 0:
-                    # both students put the same non-empty wrong answer 
-                    num_wrong = incorrect_count[q_ind]
-                    num_diff_wrong = num_wrong - response_count[q_ind][rs1]
-                    if num_diff_wrong < 0:
-                        error_message = "Number of different wrong answers was negative: question '%s' for students '%s' and '%s' (%d correct, %d incorrect)" % (questions[q_ind], student1, student2, correct_count[q_ind], num_wrong)
-                        if ignore_case:
-                            error("%s\nPerhaps '--ignore_case' is not valid for this question (e.g. correctness is case-dependent)?" % error_message)
-                        else:
-                            error(error_message)
-                    score += (float(num_diff_wrong)/num_wrong) # prop students who put a different wrong answer
-            score /= num_questions # normalize by number of questions
-            mess.append((score,student1,student2))
+                if rs1 == rs2: # both students put identical answers (regardless of right or wrong)
+                    prop_identical += 1
+                    if q_ind not in correct[student1] and len(rs1) != 0:
+                        # both students put the same non-empty wrong answer 
+                        num_wrong = incorrect_count[q_ind]
+                        num_diff_wrong = num_wrong - response_count[q_ind][rs1]
+                        if num_diff_wrong < 0:
+                            error_message = "Number of different wrong answers was negative: question '%s' for students '%s' and '%s' (%d correct, %d incorrect)" % (questions[q_ind], student1, student2, correct_count[q_ind], num_wrong)
+                            if ignore_case:
+                                error("%s\nPerhaps '--ignore_case' is not valid for this question (e.g. correctness is case-dependent)?" % error_message)
+                            else:
+                                error(error_message)
+                        score += (float(num_diff_wrong)/num_wrong) # prop students who put a different wrong answer
+            prop_identical /= num_questions; score /= num_questions # normalize by number of questions
+            mess.append((score, prop_identical, student1, student2))
     return mess
 
 # perform regression on log-scale MESS distribution
@@ -193,10 +198,10 @@ def compute_pvals(mess_scores, scale, loc):
 def write_mess_output(output_tsv_fn, mess, p_values, q_values, rate, loc, correction):
     with open(output_tsv_fn, 'w') as out_tsv_f:
         out_tsv = writer(out_tsv_f, delimiter='\t')
-        out_tsv.writerow(["Student 1", "Student 2", "MESS", "p-value (rate=%s, loc=%s)" % (rate,loc), "q-value (correction: %s)" % CORRECTION[correction]['name']])
+        out_tsv.writerow(["Student 1", "Student 2", "MESS", "Proportion Identical", "p-value (rate=%s, loc=%s)" % (rate,loc), "q-value (correction: %s)" % CORRECTION[correction]['name']])
         for i in range(len(mess)):
-            m, u, v = mess[i]; p = p_values[i]; q = q_values[i]
-            out_tsv.writerow([u, v, m, p, q])
+            m, ident, u, v = mess[i]; p = p_values[i]; q = q_values[i]
+            out_tsv.writerow([u, v, m, ident, p, q])
 
 # parse user args
 def parse_args():
@@ -205,7 +210,7 @@ def parse_args():
     parser.add_argument('-ot', '--output_tsv', required=True, type=str, help="Output MESS Spreadsheet (TSV)")
     parser.add_argument('-op', '--output_pdf', required=True, type=str, help="Output MESS Distribution (PDF)")
     parser.add_argument('--ignore_case', action='store_true', help="Ignore Case in Student Responses")
-    parser.add_argument('-c', '--correction', required=False, type=str, default='benjamini_hochberg', help="Multiple Hypothesis Test Correction (options: %s)" % ', '.join(sorted(CORRECTION.keys())))
+    parser.add_argument('-c', '--correction', required=False, type=str, default='bonferroni', help="Multiple Hypothesis Test Correction (options: %s)" % ', '.join(sorted(CORRECTION.keys())))
     parser.add_argument('-rm', '--reg_min', required=False, type=float, default=None, help="Minimum MESS for Regression")
     parser.add_argument('-rM', '--reg_max', required=False, type=float, default=None, help="Maximum MESS for Regression")
     parser.add_argument('-rd', '--reg_xdelta', required=False, type=float, default=0.0001, help="X Delta for Regression")
@@ -263,7 +268,7 @@ if __name__ == "__main__":
     # process MESS scores
     print_log("Processing MESS scores...")
     mess.sort(reverse=True) # sort in descending order of MESS
-    mess_scores = [m for m,u,v in mess]
+    mess_scores = [m for m,ident,u,v in mess]
     min_mess = min(mess_scores); max_mess = max(mess_scores)
     if args.reg_min is None:
         args.reg_min = min_mess
