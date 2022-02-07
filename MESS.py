@@ -26,14 +26,15 @@ def qvalues_nocorrection(pvalues):
 
 # bonferroni correction
 def qvalues_bonferroni(pvalues):
-    return [min(1, p*len(pvalues)) for p in pvalues]
+    len_p = len(pvalues)
+    return [min(1, p*len_p) for p in pvalues]
 
 # benjamini-hochberg correction
 def qvalues_benjamini_hochberg(pvalues):
-    warn("Benjamini-Hochberg correction implementation seems to have a bug. Recommend using Bonferroni")
-    sorted_unique_pvals = sorted(set(pvalues))
-    rank = {p:(i+1) for i,p in enumerate(sorted_unique_pvals)}
-    return [min(1, p*len(pvalues)/rank[p]) for p in pvalues]
+    len_p = len(pvalues); qvalues = [None for _ in range(len_p)]
+    for rank, pair in enumerate(sorted((p,ind) for ind,p in enumerate(pvalues))):
+        p, ind = pair; qvalues[ind] = min(1, p*len_p/(rank+1))
+    return qvalues
 
 # constants about the correction techniques
 CORRECTION = {
@@ -210,7 +211,7 @@ def parse_args():
     parser.add_argument('-ot', '--output_tsv', required=True, type=str, help="Output MESS Spreadsheet (TSV)")
     parser.add_argument('-op', '--output_pdf', required=True, type=str, help="Output MESS Distribution (PDF)")
     parser.add_argument('--ignore_case', action='store_true', help="Ignore Case in Student Responses")
-    parser.add_argument('-c', '--correction', required=False, type=str, default='bonferroni', help="Multiple Hypothesis Test Correction (options: %s)" % ', '.join(sorted(CORRECTION.keys())))
+    parser.add_argument('-c', '--correction', required=False, type=str, default='benjamini_hochberg', help="Multiple Hypothesis Test Correction (options: %s)" % ', '.join(sorted(CORRECTION.keys())))
     parser.add_argument('-rm', '--reg_min', required=False, type=float, default=None, help="Minimum MESS for Regression")
     parser.add_argument('-rM', '--reg_max', required=False, type=float, default=None, help="Maximum MESS for Regression")
     parser.add_argument('-rd', '--reg_xdelta', required=False, type=float, default=0.0001, help="X Delta for Regression")
