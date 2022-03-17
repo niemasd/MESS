@@ -1,6 +1,9 @@
 #! /usr/bin/env python3
 '''
-Convert student responses exported by the Ed platform into the MESS TSV format.
+Convert student responses exported by the Ed platform ("Download Lesson Quiz Responses") into the MESS TSV format.
+
+Columns assumed in Ed TSVs:
+Name, Email, Total Score, Q1 score, Q2 score, ..., Qn score, Q1, Q1 submitted, Q2, Q2 submitted, ..., Qn, Qn submitted
 '''
 
 # imports
@@ -21,12 +24,14 @@ def load_ed_responses(ed_csv_fns):
 
     # load data and return
     for csv_fn in ed_csv_fns:
-        q_start_ind = None
+        n = None
         with open(csv_fn) as csv_f:
             for row_num, row in enumerate(reader(csv_f)):
                 # header row, so initialize this CSV's entry
                 if row_num == 0:
-                    q_start_ind = -int((len(row)-4)/2+1); questions[csv_fn] = [q.strip() for q in row[q_start_ind:]]; responses[csv_fn] = dict(); correct[csv_fn] = dict()
+                    n = int((len(row)-3)/3)
+                    questions[csv_fn] = [(i,row[i].strip()) for i in range(3+n, len(row), 2)] # list of (q_ind, q_name) tuples
+                    responses[csv_fn] = dict(); correct[csv_fn] = dict()
                     for q in questions[csv_fn]:
                         if ',' in q:
                             error("Question labels cannot have commas: %s" % q)
@@ -36,8 +41,8 @@ def load_ed_responses(ed_csv_fns):
                 email = row[1].strip()
                 if email in responses[csv_fn]:
                     error("Duplicate email found: %s in file %s" % (email, csv_fn))
-                responses[csv_fn][email] = [v.strip() for v in row[q_start_ind:]]
-                correct[csv_fn][email] = [i for i,v in enumerate(row[3:q_start_ind]) if int(v) == 1]
+                responses[csv_fn][email] = [row[qi].strip() for qi,q in questions[csv_fn]]
+                correct[csv_fn][email] = [i for i,v in enumerate(row[3:3+n]) if int(v) == 1] # 1 is assumed to be max score
     return questions, responses, correct
 
 # main content
@@ -64,12 +69,12 @@ if __name__ == "__main__":
     sorted_emails = sorted({email for csv_fn in responses for email in responses[csv_fn]})
     with open(argv[1].strip(), 'w') as out_tsv_f:
         out_tsv = writer(out_tsv_f, delimiter='\t')
-        out_tsv.writerow(["Email", "Correct"] + ['%s (%s)' % (csv_fn,q) for csv_fn in sorted(questions.keys()) for q in questions[csv_fn]])
+        out_tsv.writerow(["Email", "Correct"] + ['%s (%s)' % (csv_fn,q) for csv_fn in sorted(questions.keys()) for qi,q in questions[csv_fn]])
         for email in sorted_emails:
             curr_correct = list(); curr_responses = list()
             for csv_fn in sorted_ed_csv_fns:
                 if email in correct[csv_fn]:
-                    curr_correct += ['%s (%s)' % (csv_fn,questions[csv_fn][q_ind]) for q_ind in correct[csv_fn][email]]
+                    curr_correct += ['%s (%s)' % (csv_fn,questions[csv_fn][i]) for i in correct[csv_fn][email]]
                     curr_responses += responses[csv_fn][email]
                 else:
                     curr_responses += ['']*len(questions[csv_fn])
