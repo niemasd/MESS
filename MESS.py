@@ -18,7 +18,7 @@ import matplotlib
 matplotlib.use("Agg")
 
 # constants
-VERSION = '1.0.3'
+VERSION = '1.0.4'
 
 # no correction
 def qvalues_nocorrection(pvalues):
@@ -169,9 +169,9 @@ def regress_mess(mess_scores, reg_min, reg_max, reg_xdelta):
 # plot MESS distribution + regression
 def plot_mess(mess_scores, scale, loc, xdelta, kde_color='black', kde_linestyle='--', kde_linewidth=0.75, reg_color='black', reg_linestyle='-', reg_linewidth=None, title=None, xlabel=None, xmin=0, xmax=None, ylabel=None, ymin=None, ymax=None, ylog=True, show_hist=True):
     fig, ax = plt.subplots()
-    kdeplot(mess_scores, color=kde_color, linestyle=kde_linestyle, linewidth=kde_linewidth)
     if show_hist:
         histplot(mess_scores, stat='density', fill=False)
+    kdeplot(mess_scores, color=kde_color, linestyle=kde_linestyle, linewidth=kde_linewidth)
     if xmax is None:
         xmax = ax.get_xlim()[1]
     Xplot = arange(loc+xdelta, xmax, xdelta)
