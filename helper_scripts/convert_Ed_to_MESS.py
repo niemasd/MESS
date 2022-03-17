@@ -74,7 +74,7 @@ if __name__ == "__main__":
             curr_correct = list(); curr_responses = list()
             for csv_fn in sorted_ed_csv_fns:
                 if email in correct[csv_fn]:
-                    curr_correct += ['%s (%s)' % (csv_fn,questions[csv_fn][i]) for i in correct[csv_fn][email]]
+                    curr_correct += ['%s (%s)' % (csv_fn,questions[csv_fn][i][1]) for i in correct[csv_fn][email]]
                     curr_responses += responses[csv_fn][email]
                 else:
                     curr_responses += ['']*len(questions[csv_fn])
