@@ -9,7 +9,7 @@ from datetime import datetime
 from numpy import arange, log
 from os.path import isfile
 from scipy.stats import expon, gaussian_kde, linregress
-from seaborn import kdeplot
+from seaborn import histplot, kdeplot
 from sys import argv, stderr, stdout
 from warnings import warn
 import argparse
@@ -18,7 +18,7 @@ import matplotlib
 matplotlib.use("Agg")
 
 # constants
-VERSION = '1.0.2'
+VERSION = '1.0.3'
 
 # no correction
 def qvalues_nocorrection(pvalues):
@@ -167,9 +167,11 @@ def regress_mess(mess_scores, reg_min, reg_max, reg_xdelta):
     return rate, scale, loc
 
 # plot MESS distribution + regression
-def plot_mess(mess_scores, scale, loc, xdelta, kde_color='black', kde_linestyle='--', kde_linewidth=0.75, reg_color='black', reg_linestyle='-', reg_linewidth=None, title=None, xlabel=None, xmin=0, xmax=None, ylabel=None, ymin=None, ymax=None, ylog=True):
+def plot_mess(mess_scores, scale, loc, xdelta, kde_color='black', kde_linestyle='--', kde_linewidth=0.75, reg_color='black', reg_linestyle='-', reg_linewidth=None, title=None, xlabel=None, xmin=0, xmax=None, ylabel=None, ymin=None, ymax=None, ylog=True, show_hist=True):
     fig, ax = plt.subplots()
     kdeplot(mess_scores, color=kde_color, linestyle=kde_linestyle, linewidth=kde_linewidth)
+    if show_hist:
+        histplot(mess_scores, stat='density', fill=False)
     if xmax is None:
         xmax = ax.get_xlim()[1]
     Xplot = arange(loc+xdelta, xmax, xdelta)
@@ -221,6 +223,7 @@ def parse_args():
     parser.add_argument('-rc', '--reg_color', required=False, type=str, default='black', help="Regression Color")
     parser.add_argument('-rl', '--reg_linestyle', required=False, type=str, default='-', help="Regression Linestyle")
     parser.add_argument('-rw', '--reg_linewidth', required=False, type=str, default=None, help="Regression Line Width")
+    parser.add_argument('-sh', '--show_hist', action='store_true', help="Show Histogram")
     parser.add_argument('-t', '--title', required=False, type=str, default="MESS Distribution", help="Figure Title")
     parser.add_argument('-xl', '--xlabel', required=False, type=str, default="MESS Score", help="Figure X-Axis Label")
     parser.add_argument('-xm', '--xmin', required=False, type=float, default=0, help="Figure Minimum X")
@@ -303,6 +306,6 @@ if __name__ == "__main__":
 
     # plot MESS distribution + regression
     print_log("Plotting MESS distribution and regression...")
-    fig, ax = plot_mess(mess_scores, scale, loc, args.reg_xdelta, kde_color=args.kde_color, kde_linestyle=args.kde_linestyle, kde_linewidth=args.kde_linewidth, reg_color=args.reg_color, reg_linestyle=args.reg_linestyle, reg_linewidth=args.reg_linewidth, title=args.title, xlabel=args.xlabel, xmin=args.xmin, xmax=args.xmax, ylabel=args.ylabel, ymin=args.ymin, ymax=args.ymax, ylog=(not args.no_ylog))
+    fig, ax = plot_mess(mess_scores, scale, loc, args.reg_xdelta, kde_color=args.kde_color, kde_linestyle=args.kde_linestyle, kde_linewidth=args.kde_linewidth, reg_color=args.reg_color, reg_linestyle=args.reg_linestyle, reg_linewidth=args.reg_linewidth, title=args.title, xlabel=args.xlabel, xmin=args.xmin, xmax=args.xmax, ylabel=args.ylabel, ymin=args.ymin, ymax=args.ymax, ylog=(not args.no_ylog), show_hist=args.show_hist)
     fig.savefig(args.output_pdf, format='pdf', bbox_inches='tight'); plt.close(fig)
     print_log("MESS distribution and regression figure written to PDF: %s" % args.output_pdf)
