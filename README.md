@@ -42,6 +42,7 @@ optional arguments:
   -rc REG_COLOR, --reg_color REG_COLOR               Regression Color (default: black)
   -rl REG_LINESTYLE, --reg_linestyle REG_LINESTYLE   Regression Linestyle (default: -)
   -rw REG_LINEWIDTH, --reg_linewidth REG_LINEWIDTH   Regression Line Width (default: None)
+  -sh, --show_hist                                   Show Histogram (default: False)
   -t TITLE, --title TITLE                            Figure Title (default: MESS Distribution)
   -xl XLABEL, --xlabel XLABEL                        Figure X-Axis Label (default: MESS Score)
   -xm XMIN, --xmin XMIN                              Figure Minimum X (default: 0)
