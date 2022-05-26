@@ -54,4 +54,6 @@ optional arguments:
 ```
 
 # Citing MESS
-A manuscript has been accepted to [CCSC-SW 2022](http://www.ccsc.org/southwestern/2022), but while it's in press, please cite this GitHub repository.
+If you use MESS in your work, please cite:
+
+> Moshiri N (2022). "A scalable approach for detecting exam similarity in CS courses." *Journal of Computing Sciences in Colleges*. 37(10):8–16. [doi:10.5555/3533760.3533761]([https://doi.org/10.1093/bioinformatics/btaa743](https://dl.acm.org/doi/abs/10.5555/3533760.3533761))
