@@ -56,4 +56,4 @@ optional arguments:
 # Citing MESS
 If you use MESS in your work, please cite:
 
-> Moshiri N (2022). "A scalable approach for detecting exam similarity in CS courses." *Journal of Computing Sciences in Colleges*. 37(10):8–16. [doi:10.5555/3533760.3533761]([https://doi.org/10.1093/bioinformatics/btaa743](https://dl.acm.org/doi/abs/10.5555/3533760.3533761))
+> Moshiri N (2022). "A scalable approach for detecting exam similarity in CS courses." *Journal of Computing Sciences in Colleges*. 37(10):8–16. [doi:10.5555/3533760.3533761](https://dl.acm.org/doi/abs/10.5555/3533760.3533761)
