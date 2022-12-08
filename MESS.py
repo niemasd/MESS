@@ -6,7 +6,8 @@ MESS: Moshiri Exam Similarity Score
 # imports
 from csv import reader, writer
 from datetime import datetime
-from numpy import arange, log
+from math import log
+from numpy import arange
 from os.path import isfile
 from scipy.stats import expon, gaussian_kde, linregress
 from seaborn import histplot, kdeplot
@@ -18,7 +19,7 @@ import matplotlib
 matplotlib.use("Agg")
 
 # constants
-VERSION = '1.0.4'
+VERSION = '1.0.5'
 
 # no correction
 def qvalues_nocorrection(pvalues):
@@ -160,7 +161,7 @@ def compute_mess(questions, responses, correct, ignore_case=False):
 def regress_mess(mess_scores, reg_min, reg_max, reg_xdelta):
     kde = gaussian_kde(mess_scores)
     X = arange(reg_min, reg_max, reg_xdelta)
-    Y = log(kde.pdf(X))
+    Y = kde.logpdf(X)
     line = linregress(X,Y) # y = ln(L) - Lx, where L = rate parameter (lambda) of Exponential distribution
     rate = -1 * line.slope; scale = 1. / rate
     loc = (log(rate) - line.intercept)/line.slope
@@ -247,8 +248,8 @@ if __name__ == "__main__":
     if args.correction not in CORRECTION:
         error("Invalid multiple hypothesis test correction: %s\nOptions: %s" % (args.correction, ', '.join(sorted(CORRECTION.keys()))))
     if args.reg_min is not None:
-        if args.reg_min < 0:
-            error("reg_min must be non-negative: %s" % args.reg_min)
+        if args.reg_min <= 0:
+            error("reg_min must be positive: %s" % args.reg_min)
         if args.reg_max is not None:
             if args.reg_max <= args.reg_min:
                 error("reg_max must be greater than reg_min. reg_min: %s and reg_max: %s" % (args.reg_min, args.reg_max))
@@ -273,7 +274,7 @@ if __name__ == "__main__":
     print_log("Processing MESS scores...")
     mess.sort(reverse=True) # sort in descending order of MESS
     mess_scores = [m for m,ident,u,v in mess]
-    min_mess = min(mess_scores); max_mess = max(mess_scores)
+    min_mess = min(v for v in mess_scores if v > 0); max_mess = max(mess_scores)
     if args.reg_min is None:
         args.reg_min = min_mess
     else:
