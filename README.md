@@ -1,5 +1,5 @@
 # MESS: Moshiri Exam Similarity Score
-**MESS** (**M**oshiri **E**xam **S**imilarity **S**core; pun on "MOSS") is a scalable Python tool for detecting exam similarity from student responses. For information about the mathematical methods behind the tool, see the [Methods](../../wiki/Methods) section of the [MESS Wiki](../../wiki).
+**MESS** (**M**oshiri **E**xam **S**imilarity **S**core; pun on "MOSS") is a scalable Python tool for detecting exam similarity from student responses. For information about the mathematical methods behind the tool, see the [Methods](../../wiki/Methods) section of the [MESS Wiki](../../wiki) as well as the [published paper](https://dl.acm.org/doi/abs/10.5555/3533760.3533761).
 
 ## Installation
 MESS is written in Python 3 and depends on [NumPy](https://numpy.org/), [SciPy](https://scipy.org/), and [seaborn](https://seaborn.pydata.org/), which can be installed using `pip3`:
