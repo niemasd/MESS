@@ -117,20 +117,23 @@ def compute_mess(questions, responses, correct, ignore_case=False):
     num_questions = len(questions)
 
     # count the number of unique responses to each question
-    response_count = [dict() for _ in range(num_questions)] # response_count[q_ind][response] = number of students who submitted `response` for `questions[q_ind]`
+    response_count = [{'correct':dict(),'incorrect':dict()} for _ in range(num_questions)] # response_count[q_ind]['correct'/'incorrect'][response] = number of students who submitted `response` for `questions[q_ind]`
     for student in responses:
         for q_ind, response in enumerate(responses[student]):
-            if response in response_count[q_ind]:
-                response_count[q_ind][response] += 1
+            if q_ind in correct[student]:
+                curr = response_count[q_ind]['correct']
             else:
-                response_count[q_ind][response] = 1
+                curr = response_count[q_ind]['incorrect']
+            if response in curr:
+                curr[response] += 1
+            else:
+                curr[response] = 1
 
     # count the number of students who got each question correct and incorrect
     correct_count = [0 for _ in range(num_questions)]
     for student in correct:
         for q_ind in correct[student]:
             correct_count[q_ind] += 1
-    incorrect_count = [num_students-c for c in correct_count]
 
     # compute MESS and proportion identical for all pairs of students
     mess = list() # mess = list of (proportion identical, MESS score, student1, student2) tuples
@@ -144,10 +147,10 @@ def compute_mess(questions, responses, correct, ignore_case=False):
                     prop_identical += 1
                     if q_ind not in correct[student1] and len(rs1) != 0:
                         # both students put the same non-empty wrong answer 
-                        num_wrong = incorrect_count[q_ind]
-                        num_diff_wrong = num_wrong - response_count[q_ind][rs1]
+                        num_wrong = sum(response_count[q_ind]['incorrect'].values())
+                        num_diff_wrong = num_wrong - response_count[q_ind]['incorrect'][rs1]
                         if num_diff_wrong < 0:
-                            error_message = "Number of different wrong answers was negative: question '%s' for students '%s' and '%s' (%d correct, %d incorrect)" % (questions[q_ind], student1, student2, correct_count[q_ind], num_wrong)
+                            error_message = "Number of different wrong answers was negative (%s): question '%s' for students '%s' and '%s' (%d correct, %d incorrect)" % (num_diff_wrong, questions[q_ind], student1, student2, correct_count[q_ind], num_wrong)
                             if ignore_case:
                                 error("%s\nPerhaps '--ignore_case' is not valid for this question (e.g. correctness is case-dependent)?" % error_message)
                             else:
