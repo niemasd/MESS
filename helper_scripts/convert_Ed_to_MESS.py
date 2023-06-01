@@ -49,7 +49,7 @@ def load_ed_responses(ed_csv_fns):
 if __name__ == "__main__":
     # parse user args
     if len(argv) < 3:
-        error("%s <output_MESS_TSV> <input_Ed_CSV> [input_Ed_CSV_2] ..." % argv[0], prefix="USAGE: ")
+        error("%s <output_MESS_responses_TSV> <input_Ed_responses_CSV> [input_Ed_responses_CSV_2] ..." % argv[0], prefix="USAGE: ")
     if isfile(argv[1].strip()):
         error("Output file exists: %s" % argv[1])
     unique_fn = set()

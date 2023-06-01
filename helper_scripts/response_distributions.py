@@ -75,7 +75,7 @@ def plot_response_dists(questions, responses, pdf_fn, xlabel="Response", ylabel=
 if __name__ == "__main__":
     # parse user args
     if len(argv) != 3:
-        error("%s <input_MESS_TSV> <output_PDF>" % argv[0], prefix="USAGE: ")
+        error("%s <input_MESS_responses_TSV> <output_PDF>" % argv[0], prefix="USAGE: ")
     if not isfile(argv[1].strip()):
         error("Input file not found: %s" % argv[1])
     if isfile(argv[2].strip()):
