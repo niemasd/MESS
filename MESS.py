@@ -19,7 +19,7 @@ import matplotlib
 matplotlib.use("Agg")
 
 # constants
-VERSION = '1.0.5'
+VERSION = '1.0.6'
 
 # no correction
 def qvalues_nocorrection(pvalues):
@@ -136,17 +136,19 @@ def compute_mess(questions, responses, correct, ignore_case=False):
             correct_count[q_ind] += 1
 
     # compute MESS and proportion identical for all pairs of students
-    mess = list() # mess = list of (proportion identical, MESS score, student1, student2) tuples
+    mess = list() # mess = list of (proportion identical, MESS score, student1, student2, red_count, yellow_count, green_count) tuples; red = same wrong answer, yellow = diff wrong answers, green = only 1 student missed
     for student1_ind in range(num_students-1):
         student1 = sorted_students[student1_ind]; responses1 = responses[student1]
         for student2_ind in range(student1_ind+1, num_students):
-            student2 = sorted_students[student2_ind]; responses2 = responses[student2]; score = 0; prop_identical = 0.
+            student2 = sorted_students[student2_ind]; responses2 = responses[student2]
+            score = 0; prop_identical = 0.; red_count = 0; yellow_count = 0; green_count = 0
             for q_ind in range(num_questions):
                 rs1 = responses1[q_ind]; rs2 = responses2[q_ind]
                 if rs1 == rs2: # both students put identical answers (regardless of right or wrong)
                     prop_identical += 1
                     if q_ind not in correct[student1] and len(rs1) != 0:
-                        # both students put the same non-empty wrong answer 
+                        # both students put the same non-empty wrong answer
+                        red_count += 1
                         num_wrong = sum(response_count[q_ind]['incorrect'].values())
                         num_diff_wrong = num_wrong - response_count[q_ind]['incorrect'][rs1]
                         if num_diff_wrong < 0:
@@ -156,8 +158,12 @@ def compute_mess(questions, responses, correct, ignore_case=False):
                             else:
                                 error(error_message)
                         score += (float(num_diff_wrong)/num_wrong) # prop students who put a different wrong answer
+                elif q_ind not in correct[student1] and q_ind not in correct[student2]: # both students got it wrong, but they put different wrong answers
+                    yellow_count += 1
+                elif q_ind not in correct[student1] or q_ind not in correct[student2]: # only 1 student got it wrong
+                    green_count += 1
             prop_identical /= num_questions; score /= num_questions # normalize by number of questions
-            mess.append((score, prop_identical, student1, student2))
+            mess.append((score, prop_identical, student1, student2, red_count, yellow_count, green_count))
     return mess
 
 # perform regression on log-scale MESS distribution
@@ -205,10 +211,10 @@ def compute_pvals(mess_scores, scale, loc):
 def write_mess_output(output_tsv_fn, mess, p_values, q_values, rate, loc, correction):
     with open(output_tsv_fn, 'w') as out_tsv_f:
         out_tsv = writer(out_tsv_f, delimiter='\t')
-        out_tsv.writerow(["Student 1", "Student 2", "MESS", "Proportion Identical", "p-value (rate=%s, loc=%s)" % (rate,loc), "q-value (correction: %s)" % CORRECTION[correction]['name']])
+        out_tsv.writerow(["Student 1", "Student 2", "MESS", "Proportion Identical", "p-value (rate=%s, loc=%s)" % (rate,loc), "q-value (correction: %s)" % CORRECTION[correction]['name'], "Red (same wrong answer)", "Yellow (different wrong answers)", "Green (only 1 student missed)"])
         for i in range(len(mess)):
-            m, ident, u, v = mess[i]; p = p_values[i]; q = q_values[i]
-            out_tsv.writerow([u, v, m, ident, p, q])
+            m, ident, u, v, r, y, g = mess[i]; p = p_values[i]; q = q_values[i]
+            out_tsv.writerow([u, v, m, ident, p, q, r, y, g])
 
 # parse user args
 def parse_args():
@@ -276,7 +282,7 @@ if __name__ == "__main__":
     # process MESS scores
     print_log("Processing MESS scores...")
     mess.sort(reverse=True) # sort in descending order of MESS
-    mess_scores = [m for m,ident,u,v in mess]
+    mess_scores = [m for m,ident,u,v,r,y,g in mess]
     min_mess = min(v for v in mess_scores if v > 0); max_mess = max(mess_scores)
     if args.reg_min is None:
         args.reg_min = min_mess
