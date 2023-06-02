@@ -10,7 +10,9 @@ from matplotlib.backends.backend_pdf import PdfPages
 from os.path import isfile
 from seaborn import displot
 from sys import argv, stderr
+from warnings import filterwarnings
 import matplotlib.pyplot as plt
+filterwarnings("error")
 
 # throw error
 def error(message, prefix="ERROR: ", out_file=stderr):
@@ -40,7 +42,7 @@ def load_mess_responses(mess_tsv_fn):
     return questions, responses
 
 # plot response distributions
-def plot_response_dists(questions, responses, pdf_fn, xlabel="Response", ylabel="Count (log-scale)", yscale="log", aspect=2, xtick_rotation=90, bottom_padding=0.5, top_padding=0.92):
+def plot_response_dists(questions, responses, pdf_fn, xlabel="Response", ylabel="Count (log-scale)", yscale="log", aspect=2, xtick_rotation=90):
     with PdfPages(pdf_fn) as pdf:
         for i, q in enumerate(questions):
             # parse current question's responses
@@ -66,7 +68,10 @@ def plot_response_dists(questions, responses, pdf_fn, xlabel="Response", ylabel=
                 fg.ax.text(spot[0].get_x()+spot[0].get_width()/4, spot[0].get_height(), str(curr_counts[spot[1]]))
 
             # finalize and save current plot
-            plt.gcf().subplots_adjust(bottom=bottom_padding, top=top_padding)
+            try:
+                plt.tight_layout()
+            except UserWarning:
+                plt.gcf().subplots_adjust(bottom=0.5, top=0.92)
             pdf.savefig(plt.gcf())
             plt.cla(); plt.clf(); plt.close('all')
     print("Response distribution plots written to: %s" % pdf_fn)
