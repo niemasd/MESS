@@ -70,7 +70,9 @@ if __name__ == "__main__":
         # plot RYG vs. total wrong
         fig, ax = plt.subplots(figsize=(10,5))
         for vals, color, label in data:
-            regplot(x=total_wrong, y=vals, color=color, label=label, ci=None, scatter_kws={'alpha':0.1})
+            kdeplot(x=total_wrong, y=vals, color=color, fill=True, alpha=0.5)
+        for vals, color, label in data:
+            regplot(x=total_wrong, y=vals, color=color, label=label, ci=None, scatter=False)
         plt.xlim(xmin=0, xmax=max_tot)
         plt.ylim(ymin=0, ymax=max_val)
         plt.title("Red, Yellow, and Green vs. Total Wrong")
