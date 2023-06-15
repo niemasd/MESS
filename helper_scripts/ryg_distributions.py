@@ -12,6 +12,7 @@ from os.path import isfile
 from matplotlib.backends.backend_pdf import PdfPages
 from seaborn import histplot, kdeplot, regplot
 from sys import argv, stderr
+import argparse
 import matplotlib.pyplot as plt
 
 # throw error
@@ -21,16 +22,23 @@ def error(message, prefix="ERROR: ", out_file=stderr):
 # main content
 if __name__ == "__main__":
     # parse user args
-    if len(argv) != 3:
-        error("%s <input_MESS_results_TSV> <output_PDF>" % argv[0], prefix="USAGE: ")
-    if not isfile(argv[1].strip()):
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('-i', '--input', required=True, type=str, help="Input MESS Results (TSV)")
+    parser.add_argument('-o', '--output', required=True, type=str, help="Output Figures (PDF)")
+    parser.add_argument('-t', '--title', required=False, type=str, default="Red, Yellow, and Green Distributions", help="Figure Title")
+    args = parser.parse_args()
+    args.input = args.input.strip()
+    args.output = args.output.strip()
+
+    # check user args
+    if not isfile(args.input):
         error("Input file not found: %s" % argv[1])
-    if isfile(argv[2].strip()):
+    if isfile(args.output):
         error("Output file exists: %s" % argv[2])
 
     # load responses
     red, yellow, green, total_wrong = list(), list(), list(), list()
-    with open(argv[1]) as tsv:
+    with open(args.input) as tsv:
         for row_num, l in enumerate(tsv):
             if row_num == 0:
                 continue
@@ -46,7 +54,7 @@ if __name__ == "__main__":
     bins = list(range(max_val+1))
 
     # plot distributions
-    with PdfPages(argv[2]) as pdf:
+    with PdfPages(args.output) as pdf:
         # plot KDE and histogram
         for plot_type in [kdeplot, histplot]:
             fig, ax = plt.subplots(figsize=(10,5))
@@ -60,7 +68,7 @@ if __name__ == "__main__":
                     ylabel = "Proportion of Pairs"
                     plot_type(data=vals, color=color, label=label, bw_adjust=5)
             plt.xlim(xmin=0, xmax=max_val)
-            plt.title("Red, Yellow, and Green Distributions")
+            plt.title(args.title)
             plt.xlabel("Number of Questions")
             plt.ylabel(ylabel)
             plt.legend(bbox_to_anchor=(0.995, 0.995), loc='upper right', borderaxespad=0., ncol=1)
@@ -75,7 +83,7 @@ if __name__ == "__main__":
             regplot(x=total_wrong, y=vals, color=color, label=label, ci=None, scatter=False)
         plt.xlim(xmin=0, xmax=max_tot)
         plt.ylim(ymin=0, ymax=max_val)
-        plt.title("Red, Yellow, and Green vs. Total Wrong")
+        plt.title(args.title)
         plt.xlabel("Total Number of Questions Either Student Got Wrong (Red+Yellow+Green)")
         plt.ylabel("Number of Questions Red, Yellow, or Green")
         plt.legend(bbox_to_anchor=(0.005, 0.995), loc='upper left', borderaxespad=0., ncol=1)
