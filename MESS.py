@@ -11,6 +11,7 @@ from numpy import arange, histogram
 from os.path import isfile
 from scipy.stats import expon, gaussian_kde, linregress
 from seaborn import histplot, kdeplot
+from statistics import median
 from sys import argv, stderr, stdout
 from warnings import warn
 import argparse
@@ -19,7 +20,7 @@ import matplotlib
 matplotlib.use("Agg")
 
 # constants
-VERSION = '1.0.7'
+VERSION = '1.0.8'
 
 # no correction
 def qvalues_nocorrection(pvalues):
@@ -225,8 +226,9 @@ def write_mess_output(output_tsv_fn, mess, p_values, q_values, rate, loc, correc
 # find number of significance tests to perform
 def find_num_tests(mess_scores):
     hist, bin_edges = histogram(mess_scores, bins='auto')
+    med = median(mess_scores)
     for i in range(len(hist)):
-        if hist[i] == 0:
+        if hist[i] == 0 and bin_edges[i] > med:
             min_mess_test = bin_edges[i]; break
     return min_mess_test, len([v for v in mess_scores if v > min_mess_test])
 
