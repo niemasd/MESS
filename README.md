@@ -32,6 +32,7 @@ optional arguments:
   -ot OUTPUT_TSV, --output_tsv OUTPUT_TSV            Output MESS Spreadsheet (TSV) (default: None)
   -op OUTPUT_PDF, --output_pdf OUTPUT_PDF            Output MESS Distribution (PDF) (default: None)
   --ignore_case                                      Ignore Case in Student Responses (default: False)
+  -nt NUM_TESTS, --num_tests NUM_TESTS               Number of Significance Tests to Perform (default: None)
   -c CORRECTION, --correction CORRECTION             Multiple Hypothesis Test Correction (options: benjamini_hochberg, bonferroni, none) (default: benjamini_hochberg)
   -rm REG_MIN, --reg_min REG_MIN                     Minimum MESS for Regression (default: None)
   -rM REG_MAX, --reg_max REG_MAX                     Maximum MESS for Regression (default: None)
