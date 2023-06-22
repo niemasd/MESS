@@ -7,7 +7,7 @@ MESS: Moshiri Exam Similarity Score
 from csv import reader, writer
 from datetime import datetime
 from math import log
-from numpy import arange
+from numpy import arange, histogram
 from os.path import isfile
 from scipy.stats import expon, gaussian_kde, linregress
 from seaborn import histplot, kdeplot
@@ -19,7 +19,7 @@ import matplotlib
 matplotlib.use("Agg")
 
 # constants
-VERSION = '1.0.6'
+VERSION = '1.0.7'
 
 # no correction
 def qvalues_nocorrection(pvalues):
@@ -177,7 +177,7 @@ def regress_mess(mess_scores, reg_min, reg_max, reg_xdelta):
     return rate, scale, loc
 
 # plot MESS distribution + regression
-def plot_mess(mess_scores, scale, loc, xdelta, kde_color='black', kde_linestyle='--', kde_linewidth=0.75, reg_color='black', reg_linestyle='-', reg_linewidth=None, title=None, xlabel=None, xmin=0, xmax=None, ylabel=None, ymin=None, ymax=None, ylog=True, show_hist=True):
+def plot_mess(mess_scores, scale, loc, xdelta, min_mess_test=None, kde_color='black', kde_linestyle='--', kde_linewidth=0.75, reg_color='black', reg_linestyle='-', reg_linewidth=None, title=None, xlabel=None, xmin=0, xmax=None, ylabel=None, ymin=None, ymax=None, ylog=True, show_hist=True):
     fig, ax = plt.subplots()
     if show_hist:
         histplot(mess_scores, stat='density', fill=False)
@@ -199,6 +199,8 @@ def plot_mess(mess_scores, scale, loc, xdelta, kde_color='black', kde_linestyle=
         ymin = ax.get_ylim()[0]
     if ymax is None:
         ymax = ax.get_ylim()[1]
+    if min_mess_test is not None:
+        plt.plot([min_mess_test,min_mess_test], [ymin,ymax], color='red', linestyle=':')
     plt.xlim(xmin=xmin, xmax=xmax); plt.ylim(ymin=ymin, ymax=ymax)
     return fig, ax
 
@@ -211,10 +213,22 @@ def compute_pvals(mess_scores, scale, loc):
 def write_mess_output(output_tsv_fn, mess, p_values, q_values, rate, loc, correction):
     with open(output_tsv_fn, 'w') as out_tsv_f:
         out_tsv = writer(out_tsv_f, delimiter='\t')
-        out_tsv.writerow(["Student 1", "Student 2", "MESS", "Proportion Identical", "p-value (rate=%s, loc=%s)" % (rate,loc), "q-value (correction: %s)" % CORRECTION[correction]['name'], "Red (same wrong answer)", "Yellow (different wrong answers)", "Green (only 1 student missed)"])
+        out_tsv.writerow(["Student 1", "Student 2", "MESS", "Proportion Identical", "p-value (rate=%s, loc=%s)" % (rate,loc), "q-value (%d tests; MESS >= %s; correction: %s)" % (args.num_tests, min_mess_test, CORRECTION[correction]['name']), "Red (same wrong answer)", "Yellow (different wrong answers)", "Green (only 1 student missed)"])
         for i in range(len(mess)):
-            m, ident, u, v, r, y, g = mess[i]; p = p_values[i]; q = q_values[i]
+            m, ident, u, v, r, y, g = mess[i]; p = p_values[i]
+            if i < len(q_values):
+                q = q_values[i]
+            else:
+                q = "N/A"
             out_tsv.writerow([u, v, m, ident, p, q, r, y, g])
+
+# find number of significance tests to perform
+def find_num_tests(mess_scores):
+    hist, bin_edges = histogram(mess_scores, bins='auto')
+    for i in range(len(hist)):
+        if hist[i] == 0:
+            min_mess_test = bin_edges[i]; break
+    return min_mess_test, len([v for v in mess_scores if v > min_mess_test])
 
 # parse user args
 def parse_args():
@@ -223,6 +237,7 @@ def parse_args():
     parser.add_argument('-ot', '--output_tsv', required=True, type=str, help="Output MESS Spreadsheet (TSV)")
     parser.add_argument('-op', '--output_pdf', required=True, type=str, help="Output MESS Distribution (PDF)")
     parser.add_argument('--ignore_case', action='store_true', help="Ignore Case in Student Responses")
+    parser.add_argument('-nt', '--num_tests', required=False, type=int, default=None, help="Number of Significance Tests to Perform")
     parser.add_argument('-c', '--correction', required=False, type=str, default='benjamini_hochberg', help="Multiple Hypothesis Test Correction (options: %s)" % ', '.join(sorted(CORRECTION.keys())))
     parser.add_argument('-rm', '--reg_min', required=False, type=float, default=None, help="Minimum MESS for Regression")
     parser.add_argument('-rM', '--reg_max', required=False, type=float, default=None, help="Maximum MESS for Regression")
@@ -254,6 +269,8 @@ if __name__ == "__main__":
         if isfile(fn):
             error("Output file exists: %s" % fn)
     args.correction = args.correction.lower()
+    if args.num_tests is not None and args.num_tests < 1:
+        error("Number of hypothesis tests needs to be positive: %s" % args.num_tests)
     if args.correction not in CORRECTION:
         error("Invalid multiple hypothesis test correction: %s\nOptions: %s" % (args.correction, ', '.join(sorted(CORRECTION.keys()))))
     if args.reg_min is not None:
@@ -305,8 +322,13 @@ if __name__ == "__main__":
     print_log("Finished computing theoretical p-values")
 
     # perform multiple hypothesis test correction
-    print_log("Performing multiple hypothesis test correction method: %s" % CORRECTION[args.correction]['name'])
-    q_values = CORRECTION[args.correction]['func'](p_values)
+    if args.num_tests is None:
+        min_mess_test, args.num_tests = find_num_tests(mess_scores)
+    else:
+        min_mess_test = mess_scores[args.num_tests-1]
+    print_log("Performing %d significance tests... Minimum MESS: %s" % (args.num_tests, min_mess_test))
+    print_log("Multiple hypothesis test correction method: %s" % CORRECTION[args.correction]['name'])
+    q_values = CORRECTION[args.correction]['func'](p_values[:args.num_tests])
     print_log("Finished computing q-values (corrected p-values)")
 
     # write output TSV
@@ -316,6 +338,6 @@ if __name__ == "__main__":
 
     # plot MESS distribution + regression
     print_log("Plotting MESS distribution and regression...")
-    fig, ax = plot_mess(mess_scores, scale, loc, args.reg_xdelta, kde_color=args.kde_color, kde_linestyle=args.kde_linestyle, kde_linewidth=args.kde_linewidth, reg_color=args.reg_color, reg_linestyle=args.reg_linestyle, reg_linewidth=args.reg_linewidth, title=args.title, xlabel=args.xlabel, xmin=args.xmin, xmax=args.xmax, ylabel=args.ylabel, ymin=args.ymin, ymax=args.ymax, ylog=(not args.no_ylog), show_hist=args.show_hist)
+    fig, ax = plot_mess(mess_scores, scale, loc, args.reg_xdelta, min_mess_test=min_mess_test, kde_color=args.kde_color, kde_linestyle=args.kde_linestyle, kde_linewidth=args.kde_linewidth, reg_color=args.reg_color, reg_linestyle=args.reg_linestyle, reg_linewidth=args.reg_linewidth, title=args.title, xlabel=args.xlabel, xmin=args.xmin, xmax=args.xmax, ylabel=args.ylabel, ymin=args.ymin, ymax=args.ymax, ylog=(not args.no_ylog), show_hist=args.show_hist)
     fig.savefig(args.output_pdf, format='pdf', bbox_inches='tight'); plt.close(fig)
     print_log("MESS distribution and regression figure written to PDF: %s" % args.output_pdf)
