@@ -10,6 +10,10 @@ Name, Email, Total Score, Q1 score, Q2 score, ..., Qn score, Q1, Q1 submitted, Q
 from csv import reader, writer
 from os.path import isfile
 from sys import argv, stderr
+import re
+
+# definitions
+ZERO_THRESH = 0.0001
 
 # throw error
 def error(message, prefix="ERROR: ", out_file=stderr):
@@ -18,31 +22,38 @@ def error(message, prefix="ERROR: ", out_file=stderr):
 # load responses from Ed CSV(s)
 def load_ed_responses(ed_csv_fns):
     # prepare for loading data
-    questions = dict() # questions[fn] = list of question labels for `fn`
+    questions = dict() # questions[fn] = list of (column, label) tuples for questions in `fn`
+    max_score = dict() # max_score[fn][i] = max score of question `i` in `fn`
     responses = dict() # responses[fn][email] = list of responses from student `email` for `fn`
     correct   = dict() # correct[fn][email] = list of correct question indices from student `email` for `fn`
 
     # load data and return
     for csv_fn in ed_csv_fns:
-        n = None
+        email_col = None
         with open(csv_fn) as csv_f:
             for row_num, row in enumerate(reader(csv_f)):
                 # header row, so initialize this CSV's entry
                 if row_num == 0:
-                    n = int((len(row)-3)/3)
-                    questions[csv_fn] = [(i,row[i].strip()) for i in range(3+n, len(row), 2)] # list of (q_ind, q_name) tuples
+                    questions[csv_fn] = [(i,cell.strip()) for i,cell in enumerate(row) if re.match(r'^Q[0-9]+$', cell.strip())]
                     responses[csv_fn] = dict(); correct[csv_fn] = dict()
-                    for q in questions[csv_fn]:
-                        if ',' in q:
-                            error("Question labels cannot have commas: %s" % q)
+                    continue
+
+                # second row tells us the email column
+                elif row_num == 1:
+                    email_col = [i for i,cell in enumerate(row) if cell.strip().lower() == 'email'][0]
+                    continue
+
+                # third row has max points
+                elif row_num == 2 and row[6].strip().lower().startswith('points'):
+                    max_score[csv_fn] = [float(row[qi]) for qi,q in questions[csv_fn]]
                     continue
 
                 # parse student row
-                email = row[1].strip()
+                email = row[email_col].strip()
                 if email in responses[csv_fn]:
                     error("Duplicate email found: %s in file %s" % (email, csv_fn))
-                responses[csv_fn][email] = [row[qi].strip() for qi,q in questions[csv_fn]]
-                correct[csv_fn][email] = [i for i,v in enumerate(row[3:3+n]) if int(v) == 1] # 1 is assumed to be max score
+                responses[csv_fn][email] = [row[qi+1].strip() for qi,q in questions[csv_fn]]
+                correct[csv_fn][email] = [i for i,qtup in enumerate(questions[csv_fn]) if row[qtup[0]].strip() != '' and abs(float(row[qtup[0]]) - max_score[csv_fn][i]) <= ZERO_THRESH]
     return questions, responses, correct
 
 # main content
