@@ -11,7 +11,7 @@ Plot the distribution of red, yellow, and green counts across all pairs of stude
 from os.path import isfile
 from matplotlib.backends.backend_pdf import PdfPages
 from seaborn import histplot, kdeplot, regplot
-from sys import argv, stderr
+from sys import stderr
 import argparse
 import matplotlib.pyplot as plt
 
@@ -32,9 +32,9 @@ if __name__ == "__main__":
 
     # check user args
     if not isfile(args.input):
-        error("Input file not found: %s" % argv[1])
+        error("Input file not found: %s" % args.input)
     if isfile(args.output):
-        error("Output file exists: %s" % argv[2])
+        error("Output file exists: %s" % args.output)
 
     # load responses
     red, yellow, green, total_wrong = list(), list(), list(), list()
