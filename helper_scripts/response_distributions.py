@@ -56,6 +56,7 @@ def plot_response_dists(questions, responses, pdf_fn, xlabel="Response", ylabel=
 
             # create current plot
             fg = displot(data=curr_responses, aspect=aspect)
+            plt.ylim(ymin=1)
             plt.title(q)
             plt.xlabel(xlabel)
             plt.ylabel(ylabel)
