@@ -38,6 +38,7 @@ if __name__ == "__main__":
 
     # load responses
     red, yellow, green, total_wrong = list(), list(), list(), list()
+    print("Loading data: %s" % args.input)
     with open(args.input) as tsv:
         for row_num, l in enumerate(tsv):
             if row_num == 0:
@@ -56,7 +57,8 @@ if __name__ == "__main__":
     # plot distributions
     with PdfPages(args.output) as pdf:
         # plot KDE and histogram
-        for plot_type in [kdeplot, histplot]:
+        for plot_type_s, plot_type in [("KDE",kdeplot), ("Histogram",histplot)]:
+            print("Plotting %s..." % plot_type_s)
             fig, ax = plt.subplots(figsize=(10,5))
             for vals, color, label in data:
                 if plot_type is histplot:
@@ -76,6 +78,7 @@ if __name__ == "__main__":
             pdf.savefig(plt.gcf()); plt.cla(); plt.clf(); plt.close('all')
 
         # plot RYG vs. total wrong
+        print("Plotting RYG vs. total wrong...")
         fig, ax = plt.subplots(figsize=(10,5))
         for vals, color, label in data:
             kdeplot(x=total_wrong, y=vals, color=color, fill=True, alpha=0.5)#, bw_adjust=1)
