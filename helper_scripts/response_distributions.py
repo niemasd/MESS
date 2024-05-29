@@ -42,7 +42,7 @@ def load_mess_responses(mess_tsv_fn):
     return questions, responses
 
 # plot response distributions
-def plot_response_dists(questions, responses, pdf_fn, xlabel="Response", ylabel="Count (log-scale)", yscale="log", aspect=2, xtick_rotation=90):
+def plot_response_dists(questions, responses, pdf_fn, xlabel="Response", ylabel="Count", yscale="linear", aspect=2, xtick_rotation=90):
     with PdfPages(pdf_fn) as pdf:
         for i, q in enumerate(questions):
             # parse current question's responses
@@ -59,6 +59,8 @@ def plot_response_dists(questions, responses, pdf_fn, xlabel="Response", ylabel=
             plt.ylim(ymin=1)
             plt.title(q)
             plt.xlabel(xlabel)
+            if yscale != 'linear':
+                ylabel += (' (%s-scale)' % yscale)
             plt.ylabel(ylabel)
             plt.yscale(yscale)
             plt.xticks(rotation=xtick_rotation)
